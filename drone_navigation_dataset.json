@@ -1,0 +1,7403 @@
+[
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.777254",
+      "yolo": [
+        {
+          "Name of the detected object": "toaster",
+          "Distance of the object from you (in meters)": 1.76,
+          "Dimensions of the object (in meters)": [
+            0.43,
+            0.45,
+            0.47
+          ],
+          "orientation": 0.07
+        }
+      ],
+      "vlm": "toaster at 1.76m ahead",
+      "sensors": {
+        "Left Clearance": 1330,
+        "Right Clearance": 502,
+        "Front Clearance": 453,
+        "Back Clearance": 449,
+        "Up Clearance": 1323,
+        "Bottom Clearance": 742,
+        "AccelX": 0.13,
+        "AccelY": -0.02,
+        "AccelZ": 0.07,
+        "GyroX": 0.1,
+        "GyroY": 0.1,
+        "GyroZ": 0.09
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": 0.006930000000000001,
+      "yaw": 0.14
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.777506",
+      "yolo": [
+        {
+          "Name of the detected object": "potted plant",
+          "Distance of the object from you (in meters)": 4.53,
+          "Dimensions of the object (in meters)": [
+            0.81,
+            0.41,
+            0.46
+          ],
+          "orientation": 4.19
+        },
+        {
+          "Name of the detected object": "baseball glove",
+          "Distance of the object from you (in meters)": 6.07,
+          "Dimensions of the object (in meters)": [
+            0.54,
+            0.5,
+            0.55
+          ],
+          "orientation": 5.22
+        },
+        {
+          "Name of the detected object": "cat",
+          "Distance of the object from you (in meters)": 1.65,
+          "Dimensions of the object (in meters)": [
+            0.43,
+            0.31,
+            0.74
+          ],
+          "orientation": 5.6
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1859,
+        "Right Clearance": 1966,
+        "Front Clearance": 798,
+        "Back Clearance": 917,
+        "Up Clearance": 1273,
+        "Bottom Clearance": 698,
+        "AccelX": -0.12,
+        "AccelY": 0.2,
+        "AccelZ": -0.1,
+        "GyroX": -0.14,
+        "GyroY": -0.18,
+        "GyroZ": 0.06
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": -0.009900000000000003,
+      "yaw": 0.009999999999999995
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.777567",
+      "yolo": [
+        {
+          "Name of the detected object": "frisbee",
+          "Distance of the object from you (in meters)": 7.15,
+          "Dimensions of the object (in meters)": [
+            0.55,
+            0.49,
+            0.56
+          ],
+          "orientation": 5.75
+        },
+        {
+          "Name of the detected object": "teddy bear",
+          "Distance of the object from you (in meters)": 6.02,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.52,
+            0.49
+          ],
+          "orientation": 1.5
+        },
+        {
+          "Name of the detected object": "fork",
+          "Distance of the object from you (in meters)": 7.15,
+          "Dimensions of the object (in meters)": [
+            0.42,
+            0.46,
+            0.56
+          ],
+          "orientation": 1.13
+        },
+        {
+          "Name of the detected object": "horse",
+          "Distance of the object from you (in meters)": 6.54,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.47,
+            0.44
+          ],
+          "orientation": 1.84
+        },
+        {
+          "Name of the detected object": "car",
+          "Distance of the object from you (in meters)": 1.23,
+          "Dimensions of the object (in meters)": [
+            1.58,
+            1.63,
+            3.81
+          ],
+          "orientation": 0.98
+        }
+      ],
+      "vlm": "I spot a doorway leading to a dining space with a table, chairs, and a bathroom in the background, while a bedroom with a cluttered dressing table, mirror, and bed is on the right; I need to fly through the doorway and avoid obstacles.",
+      "sensors": {
+        "Left Clearance": 1667,
+        "Right Clearance": 949,
+        "Front Clearance": 1227,
+        "Back Clearance": 1377,
+        "Up Clearance": 442,
+        "Bottom Clearance": 1955,
+        "AccelX": -0.11,
+        "AccelY": -0.07,
+        "AccelZ": 0.13,
+        "GyroX": -0.07,
+        "GyroY": -0.05,
+        "GyroZ": -0.12
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": 0.012870000000000001,
+      "yaw": -0.06999999999999999
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.777632",
+      "yolo": [
+        {
+          "Name of the detected object": "bench",
+          "Distance of the object from you (in meters)": 7.0,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.54,
+            0.51
+          ],
+          "orientation": 5.24
+        },
+        {
+          "Name of the detected object": "banana",
+          "Distance of the object from you (in meters)": 3.93,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.47,
+            0.52
+          ],
+          "orientation": 4.77
+        },
+        {
+          "Name of the detected object": "cell phone",
+          "Distance of the object from you (in meters)": 9.73,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.53,
+            0.52
+          ],
+          "orientation": 1.54
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1013,
+        "Right Clearance": 1654,
+        "Front Clearance": 1357,
+        "Back Clearance": 1707,
+        "Up Clearance": 1732,
+        "Bottom Clearance": 447,
+        "AccelX": -0.02,
+        "AccelY": -0.02,
+        "AccelZ": -0.11,
+        "GyroX": -0.09,
+        "GyroY": 0.13,
+        "GyroZ": 0.04
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": -0.01089,
+      "yaw": 0.09
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.777678",
+      "yolo": [
+        {
+          "Name of the detected object": "parking meter",
+          "Distance of the object from you (in meters)": 5.41,
+          "Dimensions of the object (in meters)": [
+            0.44,
+            0.47,
+            0.43
+          ],
+          "orientation": 4.37
+        },
+        {
+          "Name of the detected object": "orange",
+          "Distance of the object from you (in meters)": 1.07,
+          "Dimensions of the object (in meters)": [
+            0.45,
+            0.47,
+            0.49
+          ],
+          "orientation": 4.82
+        },
+        {
+          "Name of the detected object": "surfboard",
+          "Distance of the object from you (in meters)": 4.13,
+          "Dimensions of the object (in meters)": [
+            0.44,
+            0.51,
+            0.53
+          ],
+          "orientation": 5.56
+        },
+        {
+          "Name of the detected object": "orange",
+          "Distance of the object from you (in meters)": 2.14,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.47,
+            0.51
+          ],
+          "orientation": 3.52
+        },
+        {
+          "Name of the detected object": "toilet",
+          "Distance of the object from you (in meters)": 3.69,
+          "Dimensions of the object (in meters)": [
+            0.46,
+            0.44,
+            0.44
+          ],
+          "orientation": 1.07
+        }
+      ],
+      "vlm": "I am flying through a room with a bed, a laptop, two red chairs, a desk, and items; I need to steer clear of obstacles to find a clear path.",
+      "sensors": {
+        "Left Clearance": 1602,
+        "Right Clearance": 1634,
+        "Front Clearance": 928,
+        "Back Clearance": 1175,
+        "Up Clearance": 378,
+        "Bottom Clearance": 462,
+        "AccelX": -0.07,
+        "AccelY": -0.1,
+        "AccelZ": 0.01,
+        "GyroX": 0.14,
+        "GyroY": 0.07,
+        "GyroZ": -0.07
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": 0.00099,
+      "yaw": -0.12000000000000001
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.777739",
+      "yolo": [
+        {
+          "Name of the detected object": "snowboard",
+          "Distance of the object from you (in meters)": 4.14,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.52,
+            0.47
+          ],
+          "orientation": 6.22
+        },
+        {
+          "Name of the detected object": "kite",
+          "Distance of the object from you (in meters)": 8.1,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.48,
+            0.57
+          ],
+          "orientation": 6.08
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1546,
+        "Right Clearance": 719,
+        "Front Clearance": 1451,
+        "Back Clearance": 1191,
+        "Up Clearance": 1384,
+        "Bottom Clearance": 335,
+        "AccelX": -0.04,
+        "AccelY": 0.0,
+        "AccelZ": 0.05,
+        "GyroX": -0.06,
+        "GyroY": 0.16,
+        "GyroZ": -0.03
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": 0.004950000000000001,
+      "yaw": 0.020000000000000004
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.777780",
+      "yolo": [
+        {
+          "Name of the detected object": "baseball glove",
+          "Distance of the object from you (in meters)": 4.52,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.58,
+            0.52
+          ],
+          "orientation": 5.06
+        },
+        {
+          "Name of the detected object": "skis",
+          "Distance of the object from you (in meters)": 7.76,
+          "Dimensions of the object (in meters)": [
+            0.51,
+            0.55,
+            0.52
+          ],
+          "orientation": 1.88
+        },
+        {
+          "Name of the detected object": "motorcycle",
+          "Distance of the object from you (in meters)": 5.05,
+          "Dimensions of the object (in meters)": [
+            1.48,
+            0.88,
+            2.2
+          ],
+          "orientation": 3.58
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1382,
+        "Right Clearance": 1955,
+        "Front Clearance": 724,
+        "Back Clearance": 1015,
+        "Up Clearance": 1335,
+        "Bottom Clearance": 1586,
+        "AccelX": -0.0,
+        "AccelY": 0.01,
+        "AccelZ": -0.03,
+        "GyroX": -0.07,
+        "GyroY": 0.17,
+        "GyroZ": -0.07
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": -0.00297,
+      "yaw": -0.12000000000000001
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.777823",
+      "yolo": [
+        {
+          "Name of the detected object": "cell phone",
+          "Distance of the object from you (in meters)": 1.36,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.49,
+            0.57
+          ],
+          "orientation": 0.36
+        },
+        {
+          "Name of the detected object": "umbrella",
+          "Distance of the object from you (in meters)": 1.2,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.54,
+            0.54
+          ],
+          "orientation": 4.09
+        },
+        {
+          "Name of the detected object": "laptop",
+          "Distance of the object from you (in meters)": 8.5,
+          "Dimensions of the object (in meters)": [
+            0.0,
+            0.2,
+            0.37
+          ],
+          "orientation": 2.45
+        },
+        {
+          "Name of the detected object": "apple",
+          "Distance of the object from you (in meters)": 6.3,
+          "Dimensions of the object (in meters)": [
+            0.56,
+            0.55,
+            0.51
+          ],
+          "orientation": 3.42
+        }
+      ],
+      "vlm": "I\u2019m scanning a living room with two red couches, a central wooden door, a backpack above, two tables with items, and a fridge by the window; I need to avoid obstacles while navigating.",
+      "sensors": {
+        "Left Clearance": 1508,
+        "Right Clearance": 1897,
+        "Front Clearance": 1984,
+        "Back Clearance": 1691,
+        "Up Clearance": 949,
+        "Bottom Clearance": 861,
+        "AccelX": 0.04,
+        "AccelY": 0.02,
+        "AccelZ": 0.02,
+        "GyroX": 0.17,
+        "GyroY": 0.06,
+        "GyroZ": 0.08
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": 0.00198,
+      "yaw": 0.03
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.777901",
+      "yolo": [
+        {
+          "Name of the detected object": "microwave",
+          "Distance of the object from you (in meters)": 9.28,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.53,
+            0.54
+          ],
+          "orientation": 1.94
+        },
+        {
+          "Name of the detected object": "skateboard",
+          "Distance of the object from you (in meters)": 0.79,
+          "Dimensions of the object (in meters)": [
+            0.55,
+            0.45,
+            0.43
+          ],
+          "orientation": 1.28
+        },
+        {
+          "Name of the detected object": "snowboard",
+          "Distance of the object from you (in meters)": 3.49,
+          "Dimensions of the object (in meters)": [
+            0.43,
+            0.59,
+            0.54
+          ],
+          "orientation": 3.87
+        },
+        {
+          "Name of the detected object": "frisbee",
+          "Distance of the object from you (in meters)": 0.54,
+          "Dimensions of the object (in meters)": [
+            0.56,
+            0.46,
+            0.49
+          ],
+          "orientation": 2.95
+        },
+        {
+          "Name of the detected object": "tie",
+          "Distance of the object from you (in meters)": 3.9,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.45,
+            0.49
+          ],
+          "orientation": 6.03
+        }
+      ],
+      "vlm": "I\u2019m an autonomous drone in a space with a bed, a laptop, two red chairs, a desk, and various objects; I must navigate around obstacles to find a clear route.",
+      "sensors": {
+        "Left Clearance": 1671,
+        "Right Clearance": 281,
+        "Front Clearance": 1251,
+        "Back Clearance": 1641,
+        "Up Clearance": 1389,
+        "Bottom Clearance": 1418,
+        "AccelX": -0.12,
+        "AccelY": 0.18,
+        "AccelZ": -0.14,
+        "GyroX": -0.08,
+        "GyroY": -0.05,
+        "GyroZ": -0.07
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": -0.013860000000000003,
+      "yaw": -0.020000000000000004
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.777975",
+      "yolo": [
+        {
+          "Name of the detected object": "handbag",
+          "Distance of the object from you (in meters)": 8.7,
+          "Dimensions of the object (in meters)": [
+            0.54,
+            0.51,
+            0.42
+          ],
+          "orientation": 0.03
+        }
+      ],
+      "vlm": "handbag at 8.7m ahead",
+      "sensors": {
+        "Left Clearance": 1502,
+        "Right Clearance": 782,
+        "Front Clearance": 679,
+        "Back Clearance": 887,
+        "Up Clearance": 1819,
+        "Bottom Clearance": 389,
+        "AccelX": 0.16,
+        "AccelY": -0.05,
+        "AccelZ": -0.22,
+        "GyroX": 0.11,
+        "GyroY": 0.04,
+        "GyroZ": 0.05
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.004950000000000001,
+      "vz": -0.02178,
+      "yaw": 0.1
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778016",
+      "yolo": [
+        {
+          "Name of the detected object": "refrigerator",
+          "Distance of the object from you (in meters)": 3.22,
+          "Dimensions of the object (in meters)": [
+            0.56,
+            0.52,
+            0.54
+          ],
+          "orientation": 1.56
+        }
+      ],
+      "vlm": "refrigerator at 3.22m ahead",
+      "sensors": {
+        "Left Clearance": 1857,
+        "Right Clearance": 1136,
+        "Front Clearance": 753,
+        "Back Clearance": 708,
+        "Up Clearance": 1548,
+        "Bottom Clearance": 1509,
+        "AccelX": -0.3,
+        "AccelY": -0.08,
+        "AccelZ": -0.06,
+        "GyroX": -0.11,
+        "GyroY": 0.02,
+        "GyroZ": -0.01
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.00792,
+      "vz": -0.00594,
+      "yaw": 0.04
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778049",
+      "yolo": [
+        {
+          "Name of the detected object": "cat",
+          "Distance of the object from you (in meters)": 7.02,
+          "Dimensions of the object (in meters)": [
+            0.35,
+            0.31,
+            0.72
+          ],
+          "orientation": 4.04
+        }
+      ],
+      "vlm": "cat at 7.02m ahead",
+      "sensors": {
+        "Left Clearance": 1509,
+        "Right Clearance": 1981,
+        "Front Clearance": 1902,
+        "Back Clearance": 1605,
+        "Up Clearance": 1430,
+        "Bottom Clearance": 304,
+        "AccelX": 0.06,
+        "AccelY": 0.04,
+        "AccelZ": 0.21,
+        "GyroX": 0.11,
+        "GyroY": -0.08,
+        "GyroZ": 0.07
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": 0.020790000000000003,
+      "yaw": 0.020000000000000004
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778085",
+      "yolo": [
+        {
+          "Name of the detected object": "parking meter",
+          "Distance of the object from you (in meters)": 5.67,
+          "Dimensions of the object (in meters)": [
+            0.45,
+            0.55,
+            0.61
+          ],
+          "orientation": 3.12
+        },
+        {
+          "Name of the detected object": "sports ball",
+          "Distance of the object from you (in meters)": 1.66,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.49,
+            0.54
+          ],
+          "orientation": 5.63
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1049,
+        "Right Clearance": 1213,
+        "Front Clearance": 638,
+        "Back Clearance": 1552,
+        "Up Clearance": 608,
+        "Bottom Clearance": 1556,
+        "AccelX": 0.21,
+        "AccelY": 0.04,
+        "AccelZ": -0.07,
+        "GyroX": -0.05,
+        "GyroY": -0.01,
+        "GyroZ": -0.03
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": -0.006930000000000001,
+      "yaw": 0.020000000000000004
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778123",
+      "yolo": [
+        {
+          "Name of the detected object": "scissors",
+          "Distance of the object from you (in meters)": 8.6,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.52,
+            0.5
+          ],
+          "orientation": 4.51
+        },
+        {
+          "Name of the detected object": "knife",
+          "Distance of the object from you (in meters)": 6.62,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.54,
+            0.52
+          ],
+          "orientation": 1.5
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1573,
+        "Right Clearance": 709,
+        "Front Clearance": 1429,
+        "Back Clearance": 1883,
+        "Up Clearance": 994,
+        "Bottom Clearance": 776,
+        "AccelX": -0.18,
+        "AccelY": -0.04,
+        "AccelZ": 0.05,
+        "GyroX": 0.01,
+        "GyroY": 0.04,
+        "GyroZ": -0.15
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": 0.004950000000000001,
+      "yaw": -0.09999999999999999
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778165",
+      "yolo": [
+        {
+          "Name of the detected object": "carrot",
+          "Distance of the object from you (in meters)": 4.02,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.46,
+            0.5
+          ],
+          "orientation": 1.83
+        },
+        {
+          "Name of the detected object": "bicycle",
+          "Distance of the object from you (in meters)": 5.71,
+          "Dimensions of the object (in meters)": [
+            1.34,
+            0.69,
+            1.76
+          ],
+          "orientation": 1.78
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1242,
+        "Right Clearance": 1909,
+        "Front Clearance": 308,
+        "Back Clearance": 1530,
+        "Up Clearance": 1831,
+        "Bottom Clearance": 1628,
+        "AccelX": -0.11,
+        "AccelY": 0.08,
+        "AccelZ": -0.04,
+        "GyroX": -0.02,
+        "GyroY": -0.19,
+        "GyroZ": -0.09
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": -0.00396,
+      "yaw": -0.14
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778205",
+      "yolo": [
+        {
+          "Name of the detected object": "bicycle",
+          "Distance of the object from you (in meters)": 4.97,
+          "Dimensions of the object (in meters)": [
+            1.46,
+            0.59,
+            1.77
+          ],
+          "orientation": 5.93
+        }
+      ],
+      "vlm": "bicycle at 4.97m ahead",
+      "sensors": {
+        "Left Clearance": 1142,
+        "Right Clearance": 1868,
+        "Front Clearance": 1732,
+        "Back Clearance": 867,
+        "Up Clearance": 1877,
+        "Bottom Clearance": 329,
+        "AccelX": 0.15,
+        "AccelY": 0.09,
+        "AccelZ": 0.26,
+        "GyroX": 0.01,
+        "GyroY": -0.05,
+        "GyroZ": -0.05
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": 0.025740000000000002,
+      "yaw": -0.1
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778237",
+      "yolo": [
+        {
+          "Name of the detected object": "donut",
+          "Distance of the object from you (in meters)": 4.35,
+          "Dimensions of the object (in meters)": [
+            0.44,
+            0.49,
+            0.48
+          ],
+          "orientation": 4.94
+        },
+        {
+          "Name of the detected object": "snowboard",
+          "Distance of the object from you (in meters)": 8.66,
+          "Dimensions of the object (in meters)": [
+            0.58,
+            0.51,
+            0.49
+          ],
+          "orientation": 1.23
+        },
+        {
+          "Name of the detected object": "fork",
+          "Distance of the object from you (in meters)": 7.59,
+          "Dimensions of the object (in meters)": [
+            0.38,
+            0.45,
+            0.47
+          ],
+          "orientation": 4.17
+        },
+        {
+          "Name of the detected object": "giraffe",
+          "Distance of the object from you (in meters)": 8.79,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.39,
+            0.52
+          ],
+          "orientation": 2.36
+        }
+      ],
+      "vlm": "As a drone, I\u2019m flying in a room with a bed, a table with books and a vase, a desk with a laptop, and a window with sheer curtains; I must navigate around them.",
+      "sensors": {
+        "Left Clearance": 1612,
+        "Right Clearance": 1586,
+        "Front Clearance": 739,
+        "Back Clearance": 1650,
+        "Up Clearance": 1171,
+        "Bottom Clearance": 1485,
+        "AccelX": -0.05,
+        "AccelY": -0.1,
+        "AccelZ": 0.05,
+        "GyroX": 0.04,
+        "GyroY": 0.07,
+        "GyroZ": 0.16
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": 0.004950000000000001,
+      "yaw": 0.21000000000000002
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778292",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 1221,
+        "Right Clearance": 1970,
+        "Front Clearance": 820,
+        "Back Clearance": 437,
+        "Up Clearance": 1219,
+        "Bottom Clearance": 1399,
+        "AccelX": 0.13,
+        "AccelY": -0.07,
+        "AccelZ": 0.05,
+        "GyroX": -0.02,
+        "GyroY": 0.06,
+        "GyroZ": -0.16
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.006930000000000001,
+      "vz": 0.004950000000000001,
+      "yaw": -0.21000000000000002
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778317",
+      "yolo": [
+        {
+          "Name of the detected object": "bottle",
+          "Distance of the object from you (in meters)": 5.95,
+          "Dimensions of the object (in meters)": [
+            0.21,
+            0.11,
+            0.14
+          ],
+          "orientation": 1.57
+        },
+        {
+          "Name of the detected object": "bed",
+          "Distance of the object from you (in meters)": 4.76,
+          "Dimensions of the object (in meters)": [
+            0.66,
+            1.51,
+            1.94
+          ],
+          "orientation": 5.47
+        },
+        {
+          "Name of the detected object": "fork",
+          "Distance of the object from you (in meters)": 2.72,
+          "Dimensions of the object (in meters)": [
+            0.35,
+            0.48,
+            0.51
+          ],
+          "orientation": 1.56
+        },
+        {
+          "Name of the detected object": "tennis racket",
+          "Distance of the object from you (in meters)": 8.98,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.55,
+            0.51
+          ],
+          "orientation": 5.39
+        },
+        {
+          "Name of the detected object": "bowl",
+          "Distance of the object from you (in meters)": 1.18,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.41,
+            0.49
+          ],
+          "orientation": 2.17
+        }
+      ],
+      "vlm": "I am flying through a room with a bed, a laptop, two red chairs, a desk, and items; I need to steer clear of obstacles to find a clear path.",
+      "sensors": {
+        "Left Clearance": 1014,
+        "Right Clearance": 681,
+        "Front Clearance": 545,
+        "Back Clearance": 875,
+        "Up Clearance": 457,
+        "Bottom Clearance": 497,
+        "AccelX": -0.11,
+        "AccelY": -0.09,
+        "AccelZ": -0.07,
+        "GyroX": 0.04,
+        "GyroY": 0.01,
+        "GyroZ": 0.02
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": -0.006930000000000001,
+      "yaw": 0.07
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778377",
+      "yolo": [
+        {
+          "Name of the detected object": "motorcycle",
+          "Distance of the object from you (in meters)": 1.8,
+          "Dimensions of the object (in meters)": [
+            1.56,
+            0.94,
+            2.21
+          ],
+          "orientation": 1.08
+        },
+        {
+          "Name of the detected object": "donut",
+          "Distance of the object from you (in meters)": 1.03,
+          "Dimensions of the object (in meters)": [
+            0.4,
+            0.48,
+            0.46
+          ],
+          "orientation": 5.9
+        },
+        {
+          "Name of the detected object": "giraffe",
+          "Distance of the object from you (in meters)": 3.82,
+          "Dimensions of the object (in meters)": [
+            0.45,
+            0.46,
+            0.5
+          ],
+          "orientation": 2.98
+        },
+        {
+          "Name of the detected object": "bird",
+          "Distance of the object from you (in meters)": 9.89,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.5,
+            0.5
+          ],
+          "orientation": 2.09
+        }
+      ],
+      "vlm": "I see a doorway ahead connecting to a dining space with a table, chairs, and a bathroom, while a bedroom with a dressing table, mirror, and bed is on my right; I need to navigate through the doorway and steer clear of objects.",
+      "sensors": {
+        "Left Clearance": 1758,
+        "Right Clearance": 1672,
+        "Front Clearance": 784,
+        "Back Clearance": 1225,
+        "Up Clearance": 1480,
+        "Bottom Clearance": 502,
+        "AccelX": -0.19,
+        "AccelY": 0.09,
+        "AccelZ": -0.24,
+        "GyroX": 0.16,
+        "GyroY": -0.1,
+        "GyroZ": -0.05
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": -0.02376,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778428",
+      "yolo": [
+        {
+          "Name of the detected object": "teddy bear",
+          "Distance of the object from you (in meters)": 3.82,
+          "Dimensions of the object (in meters)": [
+            0.56,
+            0.53,
+            0.53
+          ],
+          "orientation": 1.47
+        },
+        {
+          "Name of the detected object": "spoon",
+          "Distance of the object from you (in meters)": 9.1,
+          "Dimensions of the object (in meters)": [
+            0.54,
+            0.54,
+            0.49
+          ],
+          "orientation": 2.24
+        },
+        {
+          "Name of the detected object": "laptop",
+          "Distance of the object from you (in meters)": 6.47,
+          "Dimensions of the object (in meters)": [
+            0.03,
+            0.21,
+            0.38
+          ],
+          "orientation": 5.88
+        },
+        {
+          "Name of the detected object": "remote",
+          "Distance of the object from you (in meters)": 1.86,
+          "Dimensions of the object (in meters)": [
+            0.46,
+            0.57,
+            0.52
+          ],
+          "orientation": 1.58
+        },
+        {
+          "Name of the detected object": "mouse",
+          "Distance of the object from you (in meters)": 1.94,
+          "Dimensions of the object (in meters)": [
+            0.07,
+            0.03,
+            0.03
+          ],
+          "orientation": 1.75
+        }
+      ],
+      "vlm": "I\u2019m in a room with a bed, a laptop, two red chairs, a desk, and various objects; I must find a clear path without hitting anything.",
+      "sensors": {
+        "Left Clearance": 1382,
+        "Right Clearance": 1176,
+        "Front Clearance": 919,
+        "Back Clearance": 1393,
+        "Up Clearance": 349,
+        "Bottom Clearance": 1623,
+        "AccelX": -0.14,
+        "AccelY": 0.06,
+        "AccelZ": -0.07,
+        "GyroX": 0.01,
+        "GyroY": 0.1,
+        "GyroZ": 0.03
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": -0.006930000000000001,
+      "yaw": 0.08
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778484",
+      "yolo": [
+        {
+          "Name of the detected object": "mouse",
+          "Distance of the object from you (in meters)": 4.87,
+          "Dimensions of the object (in meters)": [
+            0.01,
+            0.05,
+            0.06
+          ],
+          "orientation": 3.96
+        }
+      ],
+      "vlm": "mouse at 4.87m ahead",
+      "sensors": {
+        "Left Clearance": 722,
+        "Right Clearance": 1312,
+        "Front Clearance": 1812,
+        "Back Clearance": 1387,
+        "Up Clearance": 1737,
+        "Bottom Clearance": 989,
+        "AccelX": 0.14,
+        "AccelY": 0.04,
+        "AccelZ": 0.22,
+        "GyroX": 0.11,
+        "GyroY": -0.1,
+        "GyroZ": -0.28
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": 0.02178,
+      "yaw": -0.23000000000000004
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778520",
+      "yolo": [
+        {
+          "Name of the detected object": "cat",
+          "Distance of the object from you (in meters)": 5.92,
+          "Dimensions of the object (in meters)": [
+            0.39,
+            0.28,
+            0.64
+          ],
+          "orientation": 0.3
+        },
+        {
+          "Name of the detected object": "person",
+          "Distance of the object from you (in meters)": 5.32,
+          "Dimensions of the object (in meters)": [
+            1.79,
+            0.66,
+            0.58
+          ],
+          "orientation": 1.0
+        },
+        {
+          "Name of the detected object": "spoon",
+          "Distance of the object from you (in meters)": 2.08,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.47,
+            0.48
+          ],
+          "orientation": 0.06
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1021,
+        "Right Clearance": 1802,
+        "Front Clearance": 1791,
+        "Back Clearance": 1734,
+        "Up Clearance": 965,
+        "Bottom Clearance": 782,
+        "AccelX": -0.1,
+        "AccelY": -0.09,
+        "AccelZ": -0.02,
+        "GyroX": -0.17,
+        "GyroY": 0.27,
+        "GyroZ": -0.05
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": -0.00198,
+      "yaw": -0.1
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778567",
+      "yolo": [
+        {
+          "Name of the detected object": "cow",
+          "Distance of the object from you (in meters)": 0.76,
+          "Dimensions of the object (in meters)": [
+            0.44,
+            0.48,
+            0.47
+          ],
+          "orientation": 3.41
+        },
+        {
+          "Name of the detected object": "horse",
+          "Distance of the object from you (in meters)": 9.16,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.48,
+            0.54
+          ],
+          "orientation": 3.18
+        },
+        {
+          "Name of the detected object": "fire hydrant",
+          "Distance of the object from you (in meters)": 6.79,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.6,
+            0.52
+          ],
+          "orientation": 3.47
+        },
+        {
+          "Name of the detected object": "baseball glove",
+          "Distance of the object from you (in meters)": 5.34,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.48,
+            0.54
+          ],
+          "orientation": 4.13
+        },
+        {
+          "Name of the detected object": "refrigerator",
+          "Distance of the object from you (in meters)": 1.74,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.52,
+            0.45
+          ],
+          "orientation": 5.31
+        }
+      ],
+      "vlm": "I detect a doorway leading to a dining space with a wooden table, chairs, and a bathroom, while a bedroom with a dressing table, mirror, and bed is on my right; I need to carefully navigate through the doorway and dodge objects.",
+      "sensors": {
+        "Left Clearance": 1168,
+        "Right Clearance": 1290,
+        "Front Clearance": 604,
+        "Back Clearance": 584,
+        "Up Clearance": 991,
+        "Bottom Clearance": 1704,
+        "AccelX": 0.0,
+        "AccelY": -0.06,
+        "AccelZ": -0.04,
+        "GyroX": 0.17,
+        "GyroY": 0.06,
+        "GyroZ": -0.11
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": -0.00396,
+      "yaw": -0.16
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778622",
+      "yolo": [
+        {
+          "Name of the detected object": "cup",
+          "Distance of the object from you (in meters)": 5.23,
+          "Dimensions of the object (in meters)": [
+            0.1,
+            0.09,
+            0.08
+          ],
+          "orientation": 2.54
+        },
+        {
+          "Name of the detected object": "oven",
+          "Distance of the object from you (in meters)": 7.42,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.46,
+            0.55
+          ],
+          "orientation": 4.72
+        },
+        {
+          "Name of the detected object": "pizza",
+          "Distance of the object from you (in meters)": 1.69,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.58,
+            0.53
+          ],
+          "orientation": 0.57
+        },
+        {
+          "Name of the detected object": "carrot",
+          "Distance of the object from you (in meters)": 4.87,
+          "Dimensions of the object (in meters)": [
+            0.54,
+            0.63,
+            0.51
+          ],
+          "orientation": 1.94
+        },
+        {
+          "Name of the detected object": "mouse",
+          "Distance of the object from you (in meters)": 8.43,
+          "Dimensions of the object (in meters)": [
+            -0.0,
+            0.06,
+            0.02
+          ],
+          "orientation": 0.07
+        }
+      ],
+      "vlm": "I see two red chairs, a small table, a wooden door, and a cluttered dressing area in this room; I need to avoid obstacles to reach the door safely.",
+      "sensors": {
+        "Left Clearance": 1208,
+        "Right Clearance": 1566,
+        "Front Clearance": 838,
+        "Back Clearance": 1549,
+        "Up Clearance": 841,
+        "Bottom Clearance": 1082,
+        "AccelX": 0.03,
+        "AccelY": 0.15,
+        "AccelZ": 0.03,
+        "GyroX": 0.18,
+        "GyroY": 0.04,
+        "GyroZ": -0.01
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": 0.00297,
+      "yaw": -0.060000000000000005
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778676",
+      "yolo": [
+        {
+          "Name of the detected object": "couch",
+          "Distance of the object from you (in meters)": 5.21,
+          "Dimensions of the object (in meters)": [
+            0.84,
+            0.89,
+            2.04
+          ],
+          "orientation": 0.33
+        }
+      ],
+      "vlm": "couch at 5.21m ahead",
+      "sensors": {
+        "Left Clearance": 1554,
+        "Right Clearance": 1038,
+        "Front Clearance": 747,
+        "Back Clearance": 462,
+        "Up Clearance": 1407,
+        "Bottom Clearance": 1905,
+        "AccelX": -0.07,
+        "AccelY": 0.09,
+        "AccelZ": -0.14,
+        "GyroX": -0.12,
+        "GyroY": 0.02,
+        "GyroZ": 0.17
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.00891,
+      "vz": -0.013860000000000003,
+      "yaw": 0.22000000000000003
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778711",
+      "yolo": [
+        {
+          "Name of the detected object": "person",
+          "Distance of the object from you (in meters)": 7.72,
+          "Dimensions of the object (in meters)": [
+            1.85,
+            0.6,
+            0.59
+          ],
+          "orientation": 0.8
+        }
+      ],
+      "vlm": "person at 7.72m ahead",
+      "sensors": {
+        "Left Clearance": 656,
+        "Right Clearance": 1503,
+        "Front Clearance": 314,
+        "Back Clearance": 1351,
+        "Up Clearance": 1133,
+        "Bottom Clearance": 1195,
+        "AccelX": -0.05,
+        "AccelY": 0.04,
+        "AccelZ": 0.07,
+        "GyroX": -0.22,
+        "GyroY": 0.07,
+        "GyroZ": -0.16
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": 0.006930000000000001,
+      "yaw": -0.21000000000000002
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778746",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 442,
+        "Right Clearance": 1784,
+        "Front Clearance": 988,
+        "Back Clearance": 1303,
+        "Up Clearance": 1510,
+        "Bottom Clearance": 1422,
+        "AccelX": -0.0,
+        "AccelY": 0.13,
+        "AccelZ": -0.11,
+        "GyroX": -0.05,
+        "GyroY": 0.02,
+        "GyroZ": 0.05
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": -0.01089,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778770",
+      "yolo": [
+        {
+          "Name of the detected object": "bottle",
+          "Distance of the object from you (in meters)": 2.57,
+          "Dimensions of the object (in meters)": [
+            0.22,
+            0.14,
+            0.19
+          ],
+          "orientation": 5.59
+        },
+        {
+          "Name of the detected object": "umbrella",
+          "Distance of the object from you (in meters)": 2.4,
+          "Dimensions of the object (in meters)": [
+            0.54,
+            0.54,
+            0.45
+          ],
+          "orientation": 3.04
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1851,
+        "Right Clearance": 1810,
+        "Front Clearance": 1269,
+        "Back Clearance": 1788,
+        "Up Clearance": 1384,
+        "Bottom Clearance": 1917,
+        "AccelX": -0.08,
+        "AccelY": -0.03,
+        "AccelZ": -0.07,
+        "GyroX": 0.13,
+        "GyroY": 0.08,
+        "GyroZ": 0.19
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.5,
+      "vz": -0.006930000000000001,
+      "yaw": 0.24
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778811",
+      "yolo": [
+        {
+          "Name of the detected object": "suitcase",
+          "Distance of the object from you (in meters)": 1.31,
+          "Dimensions of the object (in meters)": [
+            0.45,
+            0.55,
+            0.39
+          ],
+          "orientation": 3.5
+        },
+        {
+          "Name of the detected object": "kite",
+          "Distance of the object from you (in meters)": 7.72,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.48,
+            0.57
+          ],
+          "orientation": 3.54
+        },
+        {
+          "Name of the detected object": "truck",
+          "Distance of the object from you (in meters)": 9.74,
+          "Dimensions of the object (in meters)": [
+            3.07,
+            2.58,
+            11.21
+          ],
+          "orientation": 2.65
+        },
+        {
+          "Name of the detected object": "bowl",
+          "Distance of the object from you (in meters)": 0.46,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.47,
+            0.57
+          ],
+          "orientation": 2.9
+        },
+        {
+          "Name of the detected object": "pizza",
+          "Distance of the object from you (in meters)": 4.17,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.48,
+            0.52
+          ],
+          "orientation": 2.45
+        }
+      ],
+      "vlm": "I\u2019m flying through a room with a bed, two chairs with pillows, a window with curtains, a door, and a dresser; I must avoid obstacles to proceed.",
+      "sensors": {
+        "Left Clearance": 1857,
+        "Right Clearance": 1312,
+        "Front Clearance": 846,
+        "Back Clearance": 1621,
+        "Up Clearance": 311,
+        "Bottom Clearance": 422,
+        "AccelX": -0.06,
+        "AccelY": -0.27,
+        "AccelZ": 0.01,
+        "GyroX": -0.05,
+        "GyroY": 0.02,
+        "GyroZ": 0.02
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": 0.00099,
+      "yaw": 0.07
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778866",
+      "yolo": [
+        {
+          "Name of the detected object": "traffic light",
+          "Distance of the object from you (in meters)": 7.4,
+          "Dimensions of the object (in meters)": [
+            0.45,
+            0.56,
+            0.48
+          ],
+          "orientation": 5.46
+        },
+        {
+          "Name of the detected object": "truck",
+          "Distance of the object from you (in meters)": 7.96,
+          "Dimensions of the object (in meters)": [
+            3.11,
+            2.61,
+            11.12
+          ],
+          "orientation": 3.96
+        },
+        {
+          "Name of the detected object": "bowl",
+          "Distance of the object from you (in meters)": 3.8,
+          "Dimensions of the object (in meters)": [
+            0.45,
+            0.55,
+            0.51
+          ],
+          "orientation": 3.55
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1333,
+        "Right Clearance": 1436,
+        "Front Clearance": 1012,
+        "Back Clearance": 1889,
+        "Up Clearance": 1087,
+        "Bottom Clearance": 498,
+        "AccelX": 0.06,
+        "AccelY": 0.04,
+        "AccelZ": 0.01,
+        "GyroX": -0.18,
+        "GyroY": 0.13,
+        "GyroZ": 0.05
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": 0.00099,
+      "yaw": 0.1
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778911",
+      "yolo": [
+        {
+          "Name of the detected object": "frisbee",
+          "Distance of the object from you (in meters)": 2.73,
+          "Dimensions of the object (in meters)": [
+            0.41,
+            0.42,
+            0.48
+          ],
+          "orientation": 1.88
+        }
+      ],
+      "vlm": "frisbee at 2.73m ahead",
+      "sensors": {
+        "Left Clearance": 1536,
+        "Right Clearance": 1567,
+        "Front Clearance": 1399,
+        "Back Clearance": 1154,
+        "Up Clearance": 1121,
+        "Bottom Clearance": 327,
+        "AccelX": -0.01,
+        "AccelY": -0.13,
+        "AccelZ": -0.05,
+        "GyroX": 0.14,
+        "GyroY": 0.14,
+        "GyroZ": 0.16
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": -0.004950000000000001,
+      "yaw": 0.11
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778943",
+      "yolo": [
+        {
+          "Name of the detected object": "backpack",
+          "Distance of the object from you (in meters)": 3.11,
+          "Dimensions of the object (in meters)": [
+            0.43,
+            0.48,
+            0.5
+          ],
+          "orientation": 5.28
+        },
+        {
+          "Name of the detected object": "bowl",
+          "Distance of the object from you (in meters)": 9.59,
+          "Dimensions of the object (in meters)": [
+            0.46,
+            0.58,
+            0.53
+          ],
+          "orientation": 0.86
+        },
+        {
+          "Name of the detected object": "cell phone",
+          "Distance of the object from you (in meters)": 0.67,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.46,
+            0.53
+          ],
+          "orientation": 4.85
+        },
+        {
+          "Name of the detected object": "cow",
+          "Distance of the object from you (in meters)": 3.38,
+          "Dimensions of the object (in meters)": [
+            0.54,
+            0.54,
+            0.47
+          ],
+          "orientation": 0.72
+        }
+      ],
+      "vlm": "I am an autonomous drone navigating a room with a bed, a laptop, two red chairs, a desk, and various objects; I need to avoid obstacles and find a clear path.",
+      "sensors": {
+        "Left Clearance": 807,
+        "Right Clearance": 1170,
+        "Front Clearance": 1441,
+        "Back Clearance": 322,
+        "Up Clearance": 1799,
+        "Bottom Clearance": 1732,
+        "AccelX": 0.07,
+        "AccelY": -0.03,
+        "AccelZ": -0.01,
+        "GyroX": -0.03,
+        "GyroY": -0.01,
+        "GyroZ": 0.15
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.5,
+      "vz": -0.00099,
+      "yaw": 0.09999999999999999
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.778994",
+      "yolo": [
+        {
+          "Name of the detected object": "bird",
+          "Distance of the object from you (in meters)": 4.14,
+          "Dimensions of the object (in meters)": [
+            0.44,
+            0.52,
+            0.43
+          ],
+          "orientation": 5.06
+        },
+        {
+          "Name of the detected object": "dining table",
+          "Distance of the object from you (in meters)": 4.79,
+          "Dimensions of the object (in meters)": [
+            0.75,
+            1.21,
+            1.19
+          ],
+          "orientation": 4.58
+        },
+        {
+          "Name of the detected object": "scissors",
+          "Distance of the object from you (in meters)": 3.76,
+          "Dimensions of the object (in meters)": [
+            0.44,
+            0.51,
+            0.38
+          ],
+          "orientation": 2.83
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1099,
+        "Right Clearance": 1195,
+        "Front Clearance": 1480,
+        "Back Clearance": 757,
+        "Up Clearance": 1384,
+        "Bottom Clearance": 1360,
+        "AccelX": -0.02,
+        "AccelY": 0.1,
+        "AccelZ": -0.0,
+        "GyroX": -0.06,
+        "GyroY": -0.12,
+        "GyroZ": 0.16
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": 0.0,
+      "yaw": 0.11
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779035",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 1594,
+        "Right Clearance": 1685,
+        "Front Clearance": 1402,
+        "Back Clearance": 1193,
+        "Up Clearance": 551,
+        "Bottom Clearance": 667,
+        "AccelX": 0.05,
+        "AccelY": 0.14,
+        "AccelZ": -0.02,
+        "GyroX": 0.23,
+        "GyroY": -0.1,
+        "GyroZ": 0.1
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": -0.00198,
+      "yaw": 0.05
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779064",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 1561,
+        "Right Clearance": 1617,
+        "Front Clearance": 1761,
+        "Back Clearance": 832,
+        "Up Clearance": 1169,
+        "Bottom Clearance": 1106,
+        "AccelX": 0.01,
+        "AccelY": 0.1,
+        "AccelZ": -0.03,
+        "GyroX": 0.15,
+        "GyroY": -0.02,
+        "GyroZ": 0.05
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": -0.00297,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779089",
+      "yolo": [
+        {
+          "Name of the detected object": "hot dog",
+          "Distance of the object from you (in meters)": 1.51,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.51,
+            0.49
+          ],
+          "orientation": 2.29
+        },
+        {
+          "Name of the detected object": "cake",
+          "Distance of the object from you (in meters)": 5.62,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.48,
+            0.48
+          ],
+          "orientation": 4.46
+        },
+        {
+          "Name of the detected object": "baseball bat",
+          "Distance of the object from you (in meters)": 1.46,
+          "Dimensions of the object (in meters)": [
+            0.41,
+            0.5,
+            0.43
+          ],
+          "orientation": 2.22
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 596,
+        "Right Clearance": 1900,
+        "Front Clearance": 358,
+        "Back Clearance": 1489,
+        "Up Clearance": 1587,
+        "Bottom Clearance": 756,
+        "AccelX": -0.1,
+        "AccelY": -0.13,
+        "AccelZ": 0.04,
+        "GyroX": -0.12,
+        "GyroY": -0.11,
+        "GyroZ": -0.08
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": 0.00396,
+      "yaw": -0.13
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779133",
+      "yolo": [
+        {
+          "Name of the detected object": "skateboard",
+          "Distance of the object from you (in meters)": 5.02,
+          "Dimensions of the object (in meters)": [
+            0.46,
+            0.45,
+            0.53
+          ],
+          "orientation": 0.2
+        },
+        {
+          "Name of the detected object": "person",
+          "Distance of the object from you (in meters)": 6.36,
+          "Dimensions of the object (in meters)": [
+            1.76,
+            0.53,
+            0.7
+          ],
+          "orientation": 5.66
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1275,
+        "Right Clearance": 1646,
+        "Front Clearance": 1009,
+        "Back Clearance": 1915,
+        "Up Clearance": 1261,
+        "Bottom Clearance": 1922,
+        "AccelX": 0.12,
+        "AccelY": -0.11,
+        "AccelZ": -0.05,
+        "GyroX": 0.0,
+        "GyroY": 0.04,
+        "GyroZ": 0.03
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": -0.004950000000000001,
+      "yaw": 0.08
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779171",
+      "yolo": [
+        {
+          "Name of the detected object": "airplane",
+          "Distance of the object from you (in meters)": 6.51,
+          "Dimensions of the object (in meters)": [
+            0.46,
+            0.45,
+            0.52
+          ],
+          "orientation": 1.97
+        },
+        {
+          "Name of the detected object": "spoon",
+          "Distance of the object from you (in meters)": 8.01,
+          "Dimensions of the object (in meters)": [
+            0.51,
+            0.5,
+            0.55
+          ],
+          "orientation": 2.84
+        },
+        {
+          "Name of the detected object": "dining table",
+          "Distance of the object from you (in meters)": 1.54,
+          "Dimensions of the object (in meters)": [
+            0.8,
+            1.16,
+            1.15
+          ],
+          "orientation": 3.71
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 661,
+        "Right Clearance": 1415,
+        "Front Clearance": 1976,
+        "Back Clearance": 1011,
+        "Up Clearance": 814,
+        "Bottom Clearance": 558,
+        "AccelX": -0.08,
+        "AccelY": -0.04,
+        "AccelZ": -0.11,
+        "GyroX": 0.04,
+        "GyroY": 0.01,
+        "GyroZ": -0.04
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": -0.01089,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779217",
+      "yolo": [
+        {
+          "Name of the detected object": "person",
+          "Distance of the object from you (in meters)": 1.72,
+          "Dimensions of the object (in meters)": [
+            1.79,
+            0.64,
+            0.62
+          ],
+          "orientation": 1.71
+        },
+        {
+          "Name of the detected object": "orange",
+          "Distance of the object from you (in meters)": 7.02,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.49,
+            0.54
+          ],
+          "orientation": 1.93
+        },
+        {
+          "Name of the detected object": "person",
+          "Distance of the object from you (in meters)": 8.67,
+          "Dimensions of the object (in meters)": [
+            1.82,
+            0.58,
+            0.53
+          ],
+          "orientation": 0.97
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1755,
+        "Right Clearance": 1943,
+        "Front Clearance": 1135,
+        "Back Clearance": 1499,
+        "Up Clearance": 1328,
+        "Bottom Clearance": 1829,
+        "AccelX": -0.12,
+        "AccelY": 0.05,
+        "AccelZ": 0.16,
+        "GyroX": 0.01,
+        "GyroY": 0.06,
+        "GyroZ": -0.02
+      }
+    },
+    "output": {
+      "vx": 0.0,
+      "vy": 0.0,
+      "vz": 0.0,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779260",
+      "yolo": [
+        {
+          "Name of the detected object": "remote",
+          "Distance of the object from you (in meters)": 2.4,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.41,
+            0.48
+          ],
+          "orientation": 1.45
+        },
+        {
+          "Name of the detected object": "cup",
+          "Distance of the object from you (in meters)": 0.97,
+          "Dimensions of the object (in meters)": [
+            0.18,
+            0.07,
+            0.14
+          ],
+          "orientation": 0.65
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1232,
+        "Right Clearance": 1161,
+        "Front Clearance": 1672,
+        "Back Clearance": 848,
+        "Up Clearance": 1342,
+        "Bottom Clearance": 1584,
+        "AccelX": -0.04,
+        "AccelY": 0.14,
+        "AccelZ": -0.13,
+        "GyroX": 0.01,
+        "GyroY": -0.16,
+        "GyroZ": -0.03
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.5,
+      "vz": -0.012870000000000001,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779299",
+      "yolo": [
+        {
+          "Name of the detected object": "car",
+          "Distance of the object from you (in meters)": 6.31,
+          "Dimensions of the object (in meters)": [
+            1.49,
+            1.65,
+            3.86
+          ],
+          "orientation": 3.84
+        }
+      ],
+      "vlm": "car at 6.31m ahead",
+      "sensors": {
+        "Left Clearance": 1637,
+        "Right Clearance": 474,
+        "Front Clearance": 1917,
+        "Back Clearance": 1819,
+        "Up Clearance": 1843,
+        "Bottom Clearance": 1937,
+        "AccelX": -0.14,
+        "AccelY": -0.12,
+        "AccelZ": -0.12,
+        "GyroX": 0.08,
+        "GyroY": 0.12,
+        "GyroZ": -0.07
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": -0.01188,
+      "yaw": -0.020000000000000004
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779334",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 913,
+        "Right Clearance": 399,
+        "Front Clearance": 1160,
+        "Back Clearance": 1571,
+        "Up Clearance": 1368,
+        "Bottom Clearance": 565,
+        "AccelX": -0.01,
+        "AccelY": -0.11,
+        "AccelZ": -0.17,
+        "GyroX": 0.08,
+        "GyroY": 0.06,
+        "GyroZ": -0.02
+      }
+    },
+    "output": {
+      "vx": -0.00099,
+      "vy": -0.5,
+      "vz": -0.01683,
+      "yaw": 0.030000000000000002
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779358",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 1715,
+        "Right Clearance": 1946,
+        "Front Clearance": 1701,
+        "Back Clearance": 476,
+        "Up Clearance": 1903,
+        "Bottom Clearance": 1732,
+        "AccelX": -0.05,
+        "AccelY": 0.07,
+        "AccelZ": -0.1,
+        "GyroX": -0.06,
+        "GyroY": 0.15,
+        "GyroZ": 0.05
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": -0.009900000000000003,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779380",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 1386,
+        "Right Clearance": 942,
+        "Front Clearance": 1823,
+        "Back Clearance": 1534,
+        "Up Clearance": 1381,
+        "Bottom Clearance": 589,
+        "AccelX": 0.25,
+        "AccelY": -0.06,
+        "AccelZ": 0.01,
+        "GyroX": 0.09,
+        "GyroY": 0.05,
+        "GyroZ": -0.03
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": 0.00099,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779403",
+      "yolo": [
+        {
+          "Name of the detected object": "handbag",
+          "Distance of the object from you (in meters)": 6.95,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.52,
+            0.47
+          ],
+          "orientation": 0.62
+        },
+        {
+          "Name of the detected object": "orange",
+          "Distance of the object from you (in meters)": 6.37,
+          "Dimensions of the object (in meters)": [
+            0.45,
+            0.52,
+            0.55
+          ],
+          "orientation": 0.53
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 626,
+        "Right Clearance": 473,
+        "Front Clearance": 1822,
+        "Back Clearance": 1576,
+        "Up Clearance": 1439,
+        "Bottom Clearance": 944,
+        "AccelX": -0.04,
+        "AccelY": -0.07,
+        "AccelZ": -0.1,
+        "GyroX": 0.04,
+        "GyroY": 0.04,
+        "GyroZ": -0.0
+      }
+    },
+    "output": {
+      "vx": -0.00396,
+      "vy": 0.5,
+      "vz": -0.009900000000000003,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779444",
+      "yolo": [
+        {
+          "Name of the detected object": "orange",
+          "Distance of the object from you (in meters)": 2.04,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.56,
+            0.49
+          ],
+          "orientation": 2.09
+        },
+        {
+          "Name of the detected object": "vase",
+          "Distance of the object from you (in meters)": 8.35,
+          "Dimensions of the object (in meters)": [
+            0.21,
+            0.13,
+            0.16
+          ],
+          "orientation": 1.7
+        },
+        {
+          "Name of the detected object": "vase",
+          "Distance of the object from you (in meters)": 8.37,
+          "Dimensions of the object (in meters)": [
+            0.28,
+            0.13,
+            0.16
+          ],
+          "orientation": 2.23
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1574,
+        "Right Clearance": 1426,
+        "Front Clearance": 1636,
+        "Back Clearance": 941,
+        "Up Clearance": 1972,
+        "Bottom Clearance": 843,
+        "AccelX": -0.08,
+        "AccelY": 0.05,
+        "AccelZ": 0.24,
+        "GyroX": 0.07,
+        "GyroY": 0.03,
+        "GyroZ": -0.1
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.5,
+      "vz": 0.02376,
+      "yaw": -0.05
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779487",
+      "yolo": [
+        {
+          "Name of the detected object": "wine glass",
+          "Distance of the object from you (in meters)": 2.98,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.49,
+            0.47
+          ],
+          "orientation": 5.53
+        },
+        {
+          "Name of the detected object": "cat",
+          "Distance of the object from you (in meters)": 5.83,
+          "Dimensions of the object (in meters)": [
+            0.37,
+            0.29,
+            0.63
+          ],
+          "orientation": 3.37
+        },
+        {
+          "Name of the detected object": "bowl",
+          "Distance of the object from you (in meters)": 5.71,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.52,
+            0.47
+          ],
+          "orientation": 2.0
+        },
+        {
+          "Name of the detected object": "sandwich",
+          "Distance of the object from you (in meters)": 6.39,
+          "Dimensions of the object (in meters)": [
+            0.51,
+            0.54,
+            0.4
+          ],
+          "orientation": 3.85
+        }
+      ],
+      "vlm": "I observe a living room with two red sofas, a wooden door in the middle, a backpack on the wall, two small tables with items, and a refrigerator near a window; I must navigate around obstacles.",
+      "sensors": {
+        "Left Clearance": 1658,
+        "Right Clearance": 1237,
+        "Front Clearance": 1363,
+        "Back Clearance": 360,
+        "Up Clearance": 1112,
+        "Bottom Clearance": 605,
+        "AccelX": -0.04,
+        "AccelY": -0.04,
+        "AccelZ": 0.17,
+        "GyroX": 0.13,
+        "GyroY": -0.07,
+        "GyroZ": 0.06
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.5,
+      "vz": 0.01683,
+      "yaw": 0.11
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779534",
+      "yolo": [
+        {
+          "Name of the detected object": "suitcase",
+          "Distance of the object from you (in meters)": 5.37,
+          "Dimensions of the object (in meters)": [
+            0.6,
+            0.47,
+            0.47
+          ],
+          "orientation": 5.47
+        },
+        {
+          "Name of the detected object": "tv",
+          "Distance of the object from you (in meters)": 6.59,
+          "Dimensions of the object (in meters)": [
+            0.76,
+            0.17,
+            1.23
+          ],
+          "orientation": 1.53
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 607,
+        "Right Clearance": 766,
+        "Front Clearance": 1325,
+        "Back Clearance": 394,
+        "Up Clearance": 1463,
+        "Bottom Clearance": 1771,
+        "AccelX": -0.14,
+        "AccelY": 0.04,
+        "AccelZ": 0.02,
+        "GyroX": 0.07,
+        "GyroY": 0.02,
+        "GyroZ": -0.09
+      }
+    },
+    "output": {
+      "vx": -0.013860000000000003,
+      "vy": -0.5,
+      "vz": 0.00198,
+      "yaw": -0.039999999999999994
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779573",
+      "yolo": [
+        {
+          "Name of the detected object": "scissors",
+          "Distance of the object from you (in meters)": 8.09,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.54,
+            0.5
+          ],
+          "orientation": 2.98
+        }
+      ],
+      "vlm": "scissors at 8.09m ahead",
+      "sensors": {
+        "Left Clearance": 961,
+        "Right Clearance": 1407,
+        "Front Clearance": 1026,
+        "Back Clearance": 556,
+        "Up Clearance": 697,
+        "Bottom Clearance": 1964,
+        "AccelX": -0.02,
+        "AccelY": -0.02,
+        "AccelZ": 0.13,
+        "GyroX": 0.08,
+        "GyroY": 0.0,
+        "GyroZ": 0.06
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.5,
+      "vz": 0.012870000000000001,
+      "yaw": 0.009999999999999995
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779608",
+      "yolo": [
+        {
+          "Name of the detected object": "truck",
+          "Distance of the object from you (in meters)": 2.08,
+          "Dimensions of the object (in meters)": [
+            3.08,
+            2.65,
+            11.1
+          ],
+          "orientation": 0.59
+        },
+        {
+          "Name of the detected object": "parking meter",
+          "Distance of the object from you (in meters)": 3.88,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.46,
+            0.5
+          ],
+          "orientation": 2.63
+        },
+        {
+          "Name of the detected object": "giraffe",
+          "Distance of the object from you (in meters)": 3.93,
+          "Dimensions of the object (in meters)": [
+            0.57,
+            0.59,
+            0.49
+          ],
+          "orientation": 2.92
+        },
+        {
+          "Name of the detected object": "stop sign",
+          "Distance of the object from you (in meters)": 3.74,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.57,
+            0.42
+          ],
+          "orientation": 5.62
+        },
+        {
+          "Name of the detected object": "kite",
+          "Distance of the object from you (in meters)": 3.2,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.54,
+            0.49
+          ],
+          "orientation": 3.67
+        }
+      ],
+      "vlm": "I notice a doorway leading to a dining area with a wooden table, chairs, and a bathroom in the distance, while a bedroom with a cluttered dressing table, mirror, and bed is on my right; I must fly through the doorway and avoid collisions.",
+      "sensors": {
+        "Left Clearance": 1326,
+        "Right Clearance": 757,
+        "Front Clearance": 1285,
+        "Back Clearance": 553,
+        "Up Clearance": 680,
+        "Bottom Clearance": 1962,
+        "AccelX": 0.02,
+        "AccelY": 0.02,
+        "AccelZ": 0.11,
+        "GyroX": -0.04,
+        "GyroY": 0.19,
+        "GyroZ": 0.14
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": 0.01089,
+      "yaw": 0.19
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779717",
+      "yolo": [
+        {
+          "Name of the detected object": "laptop",
+          "Distance of the object from you (in meters)": 6.91,
+          "Dimensions of the object (in meters)": [
+            0.06,
+            0.21,
+            0.45
+          ],
+          "orientation": 2.81
+        },
+        {
+          "Name of the detected object": "traffic light",
+          "Distance of the object from you (in meters)": 2.75,
+          "Dimensions of the object (in meters)": [
+            0.55,
+            0.55,
+            0.5
+          ],
+          "orientation": 6.26
+        },
+        {
+          "Name of the detected object": "giraffe",
+          "Distance of the object from you (in meters)": 6.34,
+          "Dimensions of the object (in meters)": [
+            0.54,
+            0.51,
+            0.57
+          ],
+          "orientation": 3.9
+        },
+        {
+          "Name of the detected object": "zebra",
+          "Distance of the object from you (in meters)": 4.5,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.49,
+            0.42
+          ],
+          "orientation": 4.3
+        },
+        {
+          "Name of the detected object": "giraffe",
+          "Distance of the object from you (in meters)": 7.69,
+          "Dimensions of the object (in meters)": [
+            0.51,
+            0.4,
+            0.49
+          ],
+          "orientation": 1.7
+        }
+      ],
+      "vlm": "I\u2019m an autonomous drone in a room with two red chairs, a table, a wooden door, and a cluttered dressing area; I must maneuver around obstacles to exit through the door.",
+      "sensors": {
+        "Left Clearance": 1578,
+        "Right Clearance": 1100,
+        "Front Clearance": 1929,
+        "Back Clearance": 1464,
+        "Up Clearance": 1181,
+        "Bottom Clearance": 1262,
+        "AccelX": -0.05,
+        "AccelY": -0.03,
+        "AccelZ": 0.07,
+        "GyroX": 0.02,
+        "GyroY": 0.04,
+        "GyroZ": 0.01
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": 0.006930000000000001,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779773",
+      "yolo": [
+        {
+          "Name of the detected object": "remote",
+          "Distance of the object from you (in meters)": 8.47,
+          "Dimensions of the object (in meters)": [
+            0.6,
+            0.57,
+            0.61
+          ],
+          "orientation": 1.61
+        },
+        {
+          "Name of the detected object": "stop sign",
+          "Distance of the object from you (in meters)": 0.94,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.45,
+            0.52
+          ],
+          "orientation": 5.29
+        },
+        {
+          "Name of the detected object": "fire hydrant",
+          "Distance of the object from you (in meters)": 8.9,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.5,
+            0.52
+          ],
+          "orientation": 3.1
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1538,
+        "Right Clearance": 966,
+        "Front Clearance": 1777,
+        "Back Clearance": 1985,
+        "Up Clearance": 404,
+        "Bottom Clearance": 1697,
+        "AccelX": 0.03,
+        "AccelY": 0.22,
+        "AccelZ": 0.18,
+        "GyroX": -0.07,
+        "GyroY": 0.13,
+        "GyroZ": 0.11
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": 0.01782,
+      "yaw": 0.16
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779818",
+      "yolo": [
+        {
+          "Name of the detected object": "traffic light",
+          "Distance of the object from you (in meters)": 5.76,
+          "Dimensions of the object (in meters)": [
+            0.54,
+            0.48,
+            0.5
+          ],
+          "orientation": 3.48
+        },
+        {
+          "Name of the detected object": "horse",
+          "Distance of the object from you (in meters)": 4.36,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.39,
+            0.51
+          ],
+          "orientation": 1.54
+        },
+        {
+          "Name of the detected object": "wine glass",
+          "Distance of the object from you (in meters)": 8.22,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.52,
+            0.52
+          ],
+          "orientation": 5.86
+        },
+        {
+          "Name of the detected object": "airplane",
+          "Distance of the object from you (in meters)": 4.89,
+          "Dimensions of the object (in meters)": [
+            0.57,
+            0.48,
+            0.51
+          ],
+          "orientation": 3.43
+        },
+        {
+          "Name of the detected object": "stop sign",
+          "Distance of the object from you (in meters)": 4.33,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.45,
+            0.47
+          ],
+          "orientation": 2.72
+        }
+      ],
+      "vlm": "I\u2019m in a space with two red chairs, a wooden door in the middle, a backpack on the wall, two tables with objects, and a fridge by the window; I need to steer clear of obstacles.",
+      "sensors": {
+        "Left Clearance": 558,
+        "Right Clearance": 1679,
+        "Front Clearance": 1615,
+        "Back Clearance": 689,
+        "Up Clearance": 1631,
+        "Bottom Clearance": 1168,
+        "AccelX": 0.13,
+        "AccelY": -0.07,
+        "AccelZ": 0.06,
+        "GyroX": -0.1,
+        "GyroY": 0.03,
+        "GyroZ": -0.11
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.5,
+      "vz": 0.00594,
+      "yaw": -0.16
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779872",
+      "yolo": [
+        {
+          "Name of the detected object": "teddy bear",
+          "Distance of the object from you (in meters)": 5.08,
+          "Dimensions of the object (in meters)": [
+            0.56,
+            0.43,
+            0.48
+          ],
+          "orientation": 0.98
+        },
+        {
+          "Name of the detected object": "toothbrush",
+          "Distance of the object from you (in meters)": 3.96,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.52,
+            0.6
+          ],
+          "orientation": 4.53
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1507,
+        "Right Clearance": 851,
+        "Front Clearance": 1839,
+        "Back Clearance": 992,
+        "Up Clearance": 1125,
+        "Bottom Clearance": 1945,
+        "AccelX": -0.0,
+        "AccelY": 0.15,
+        "AccelZ": -0.08,
+        "GyroX": -0.01,
+        "GyroY": -0.18,
+        "GyroZ": 0.05
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": -0.00792,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779908",
+      "yolo": [
+        {
+          "Name of the detected object": "apple",
+          "Distance of the object from you (in meters)": 2.08,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.51,
+            0.51
+          ],
+          "orientation": 2.05
+        },
+        {
+          "Name of the detected object": "donut",
+          "Distance of the object from you (in meters)": 9.63,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.46,
+            0.58
+          ],
+          "orientation": 6.05
+        },
+        {
+          "Name of the detected object": "bus",
+          "Distance of the object from you (in meters)": 2.69,
+          "Dimensions of the object (in meters)": [
+            3.05,
+            2.6,
+            11.11
+          ],
+          "orientation": 4.38
+        },
+        {
+          "Name of the detected object": "scissors",
+          "Distance of the object from you (in meters)": 9.05,
+          "Dimensions of the object (in meters)": [
+            0.51,
+            0.5,
+            0.51
+          ],
+          "orientation": 5.41
+        },
+        {
+          "Name of the detected object": "cup",
+          "Distance of the object from you (in meters)": 3.43,
+          "Dimensions of the object (in meters)": [
+            0.06,
+            0.08,
+            0.09
+          ],
+          "orientation": 3.87
+        }
+      ],
+      "vlm": "I am flying in a compact room with a red sofa, a dining table with chairs, a sink, a window, and a closed door; I must carefully maneuver around the furniture and hanging items on the wall.",
+      "sensors": {
+        "Left Clearance": 619,
+        "Right Clearance": 809,
+        "Front Clearance": 1994,
+        "Back Clearance": 1797,
+        "Up Clearance": 953,
+        "Bottom Clearance": 1912,
+        "AccelX": 0.1,
+        "AccelY": 0.01,
+        "AccelZ": -0.03,
+        "GyroX": 0.0,
+        "GyroY": -0.17,
+        "GyroZ": -0.0
+      }
+    },
+    "output": {
+      "vx": 0.009900000000000003,
+      "vy": 0.5,
+      "vz": -0.00297,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.779962",
+      "yolo": [
+        {
+          "Name of the detected object": "apple",
+          "Distance of the object from you (in meters)": 6.44,
+          "Dimensions of the object (in meters)": [
+            0.38,
+            0.45,
+            0.5
+          ],
+          "orientation": 2.24
+        },
+        {
+          "Name of the detected object": "dining table",
+          "Distance of the object from you (in meters)": 7.88,
+          "Dimensions of the object (in meters)": [
+            0.75,
+            1.32,
+            1.21
+          ],
+          "orientation": 0.38
+        },
+        {
+          "Name of the detected object": "sink",
+          "Distance of the object from you (in meters)": 2.91,
+          "Dimensions of the object (in meters)": [
+            0.37,
+            0.58,
+            0.51
+          ],
+          "orientation": 4.6
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 816,
+        "Right Clearance": 1759,
+        "Front Clearance": 1347,
+        "Back Clearance": 1449,
+        "Up Clearance": 557,
+        "Bottom Clearance": 1592,
+        "AccelX": 0.04,
+        "AccelY": 0.07,
+        "AccelZ": 0.04,
+        "GyroX": 0.02,
+        "GyroY": -0.01,
+        "GyroZ": -0.11
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.5,
+      "vz": 0.00396,
+      "yaw": -0.16
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780007",
+      "yolo": [
+        {
+          "Name of the detected object": "dining table",
+          "Distance of the object from you (in meters)": 7.46,
+          "Dimensions of the object (in meters)": [
+            0.72,
+            1.22,
+            1.29
+          ],
+          "orientation": 5.71
+        }
+      ],
+      "vlm": "dining table at 7.46m ahead",
+      "sensors": {
+        "Left Clearance": 460,
+        "Right Clearance": 1746,
+        "Front Clearance": 1872,
+        "Back Clearance": 482,
+        "Up Clearance": 1827,
+        "Bottom Clearance": 801,
+        "AccelX": 0.22,
+        "AccelY": 0.02,
+        "AccelZ": 0.03,
+        "GyroX": 0.13,
+        "GyroY": -0.11,
+        "GyroZ": -0.12
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.5,
+      "vz": 0.00297,
+      "yaw": -0.06999999999999999
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780038",
+      "yolo": [
+        {
+          "Name of the detected object": "sports ball",
+          "Distance of the object from you (in meters)": 5.03,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.51,
+            0.4
+          ],
+          "orientation": 4.08
+        },
+        {
+          "Name of the detected object": "couch",
+          "Distance of the object from you (in meters)": 2.49,
+          "Dimensions of the object (in meters)": [
+            0.86,
+            0.83,
+            1.99
+          ],
+          "orientation": 1.79
+        },
+        {
+          "Name of the detected object": "bottle",
+          "Distance of the object from you (in meters)": 5.3,
+          "Dimensions of the object (in meters)": [
+            0.23,
+            0.13,
+            0.07
+          ],
+          "orientation": 1.25
+        },
+        {
+          "Name of the detected object": "clock",
+          "Distance of the object from you (in meters)": 1.15,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.48,
+            0.55
+          ],
+          "orientation": 1.26
+        }
+      ],
+      "vlm": "I\u2019m an autonomous drone in a living room with two red chairs, a small table, a wooden door, and a cluttered dressing area; I must maneuver around obstacles to exit via the door.",
+      "sensors": {
+        "Left Clearance": 444,
+        "Right Clearance": 288,
+        "Front Clearance": 1735,
+        "Back Clearance": 958,
+        "Up Clearance": 826,
+        "Bottom Clearance": 872,
+        "AccelX": -0.1,
+        "AccelY": 0.24,
+        "AccelZ": -0.04,
+        "GyroX": -0.04,
+        "GyroY": -0.02,
+        "GyroZ": 0.02
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": -0.00396,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780092",
+      "yolo": [
+        {
+          "Name of the detected object": "toothbrush",
+          "Distance of the object from you (in meters)": 6.33,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.56,
+            0.5
+          ],
+          "orientation": 5.74
+        }
+      ],
+      "vlm": "toothbrush at 6.33m ahead",
+      "sensors": {
+        "Left Clearance": 596,
+        "Right Clearance": 481,
+        "Front Clearance": 1278,
+        "Back Clearance": 1279,
+        "Up Clearance": 861,
+        "Bottom Clearance": 1034,
+        "AccelX": 0.1,
+        "AccelY": 0.15,
+        "AccelZ": -0.16,
+        "GyroX": -0.04,
+        "GyroY": -0.13,
+        "GyroZ": -0.06
+      }
+    },
+    "output": {
+      "vx": 0.009900000000000003,
+      "vy": -0.5,
+      "vz": -0.01584,
+      "yaw": -0.009999999999999995
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780130",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 1553,
+        "Right Clearance": 507,
+        "Front Clearance": 1754,
+        "Back Clearance": 1208,
+        "Up Clearance": 651,
+        "Bottom Clearance": 1539,
+        "AccelX": -0.05,
+        "AccelY": 0.07,
+        "AccelZ": 0.1,
+        "GyroX": -0.08,
+        "GyroY": -0.06,
+        "GyroZ": 0.04
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": 0.009900000000000003,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780153",
+      "yolo": [
+        {
+          "Name of the detected object": "carrot",
+          "Distance of the object from you (in meters)": 8.37,
+          "Dimensions of the object (in meters)": [
+            0.43,
+            0.43,
+            0.48
+          ],
+          "orientation": 4.59
+        },
+        {
+          "Name of the detected object": "airplane",
+          "Distance of the object from you (in meters)": 0.57,
+          "Dimensions of the object (in meters)": [
+            0.57,
+            0.48,
+            0.47
+          ],
+          "orientation": 0.1
+        },
+        {
+          "Name of the detected object": "bird",
+          "Distance of the object from you (in meters)": 7.72,
+          "Dimensions of the object (in meters)": [
+            0.54,
+            0.59,
+            0.49
+          ],
+          "orientation": 2.02
+        },
+        {
+          "Name of the detected object": "hair drier",
+          "Distance of the object from you (in meters)": 7.48,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.59,
+            0.45
+          ],
+          "orientation": 2.38
+        }
+      ],
+      "vlm": "I\u2019m flying in a room with a bed, two chairs with pillows, a window with curtains, an open door, and a dresser; I must avoid obstacles to proceed.",
+      "sensors": {
+        "Left Clearance": 1449,
+        "Right Clearance": 1402,
+        "Front Clearance": 785,
+        "Back Clearance": 1343,
+        "Up Clearance": 1940,
+        "Bottom Clearance": 1379,
+        "AccelX": -0.03,
+        "AccelY": -0.11,
+        "AccelZ": 0.18,
+        "GyroX": -0.12,
+        "GyroY": 0.06,
+        "GyroZ": -0.04
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": 0.01782,
+      "yaw": 0.010000000000000002
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780203",
+      "yolo": [
+        {
+          "Name of the detected object": "handbag",
+          "Distance of the object from you (in meters)": 5.33,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.49,
+            0.54
+          ],
+          "orientation": 1.02
+        },
+        {
+          "Name of the detected object": "chair",
+          "Distance of the object from you (in meters)": 2.75,
+          "Dimensions of the object (in meters)": [
+            0.82,
+            0.61,
+            0.65
+          ],
+          "orientation": 4.97
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1449,
+        "Right Clearance": 1176,
+        "Front Clearance": 1241,
+        "Back Clearance": 1296,
+        "Up Clearance": 901,
+        "Bottom Clearance": 309,
+        "AccelX": 0.17,
+        "AccelY": 0.01,
+        "AccelZ": 0.06,
+        "GyroX": 0.04,
+        "GyroY": 0.04,
+        "GyroZ": 0.03
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.5,
+      "vz": 0.00594,
+      "yaw": 0.08
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780242",
+      "yolo": [
+        {
+          "Name of the detected object": "teddy bear",
+          "Distance of the object from you (in meters)": 7.0,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.47,
+            0.51
+          ],
+          "orientation": 3.02
+        }
+      ],
+      "vlm": "teddy bear at 7.0m ahead",
+      "sensors": {
+        "Left Clearance": 1616,
+        "Right Clearance": 655,
+        "Front Clearance": 1289,
+        "Back Clearance": 1694,
+        "Up Clearance": 1617,
+        "Bottom Clearance": 784,
+        "AccelX": -0.02,
+        "AccelY": 0.07,
+        "AccelZ": -0.15,
+        "GyroX": 0.05,
+        "GyroY": 0.1,
+        "GyroZ": -0.13
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": -0.014849999999999999,
+      "yaw": -0.08
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780279",
+      "yolo": [
+        {
+          "Name of the detected object": "suitcase",
+          "Distance of the object from you (in meters)": 2.23,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.54,
+            0.54
+          ],
+          "orientation": 4.34
+        },
+        {
+          "Name of the detected object": "cell phone",
+          "Distance of the object from you (in meters)": 6.54,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.52,
+            0.43
+          ],
+          "orientation": 5.42
+        },
+        {
+          "Name of the detected object": "stop sign",
+          "Distance of the object from you (in meters)": 1.52,
+          "Dimensions of the object (in meters)": [
+            0.44,
+            0.62,
+            0.45
+          ],
+          "orientation": 3.81
+        },
+        {
+          "Name of the detected object": "teddy bear",
+          "Distance of the object from you (in meters)": 7.48,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.39,
+            0.52
+          ],
+          "orientation": 3.93
+        },
+        {
+          "Name of the detected object": "train",
+          "Distance of the object from you (in meters)": 7.19,
+          "Dimensions of the object (in meters)": [
+            0.46,
+            0.47,
+            0.46
+          ],
+          "orientation": 2.96
+        }
+      ],
+      "vlm": "I detect a doorway leading to a dining space with a wooden table, chairs, and a bathroom, while a bedroom with a dressing table, mirror, and bed is on my right; I need to carefully navigate through the doorway and dodge objects.",
+      "sensors": {
+        "Left Clearance": 1570,
+        "Right Clearance": 1668,
+        "Front Clearance": 1203,
+        "Back Clearance": 1350,
+        "Up Clearance": 1069,
+        "Bottom Clearance": 705,
+        "AccelX": -0.03,
+        "AccelY": 0.11,
+        "AccelZ": 0.2,
+        "GyroX": -0.04,
+        "GyroY": 0.01,
+        "GyroZ": -0.02
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": 0.019800000000000005,
+      "yaw": -0.07
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780337",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 1623,
+        "Right Clearance": 942,
+        "Front Clearance": 1410,
+        "Back Clearance": 1321,
+        "Up Clearance": 1269,
+        "Bottom Clearance": 314,
+        "AccelX": -0.07,
+        "AccelY": -0.06,
+        "AccelZ": -0.01,
+        "GyroX": -0.19,
+        "GyroY": -0.09,
+        "GyroZ": -0.12
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": -0.00099,
+      "yaw": -0.06999999999999999
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780360",
+      "yolo": [
+        {
+          "Name of the detected object": "parking meter",
+          "Distance of the object from you (in meters)": 3.2,
+          "Dimensions of the object (in meters)": [
+            0.45,
+            0.58,
+            0.52
+          ],
+          "orientation": 4.4
+        },
+        {
+          "Name of the detected object": "dining table",
+          "Distance of the object from you (in meters)": 3.7,
+          "Dimensions of the object (in meters)": [
+            0.77,
+            1.2,
+            1.19
+          ],
+          "orientation": 2.72
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1303,
+        "Right Clearance": 882,
+        "Front Clearance": 734,
+        "Back Clearance": 1755,
+        "Up Clearance": 1598,
+        "Bottom Clearance": 1147,
+        "AccelX": 0.13,
+        "AccelY": -0.18,
+        "AccelZ": -0.09,
+        "GyroX": 0.02,
+        "GyroY": -0.03,
+        "GyroZ": 0.03
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": -0.00891,
+      "yaw": 0.08
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780399",
+      "yolo": [
+        {
+          "Name of the detected object": "dog",
+          "Distance of the object from you (in meters)": 0.92,
+          "Dimensions of the object (in meters)": [
+            0.76,
+            0.57,
+            1.05
+          ],
+          "orientation": 2.33
+        }
+      ],
+      "vlm": "dog at 0.92m ahead",
+      "sensors": {
+        "Left Clearance": 1811,
+        "Right Clearance": 1997,
+        "Front Clearance": 1394,
+        "Back Clearance": 1236,
+        "Up Clearance": 798,
+        "Bottom Clearance": 1562,
+        "AccelX": -0.04,
+        "AccelY": -0.02,
+        "AccelZ": -0.06,
+        "GyroX": -0.02,
+        "GyroY": 0.05,
+        "GyroZ": 0.1
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": -0.00594,
+      "yaw": 0.05
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780433",
+      "yolo": [
+        {
+          "Name of the detected object": "oven",
+          "Distance of the object from you (in meters)": 2.98,
+          "Dimensions of the object (in meters)": [
+            0.41,
+            0.52,
+            0.48
+          ],
+          "orientation": 1.34
+        },
+        {
+          "Name of the detected object": "elephant",
+          "Distance of the object from you (in meters)": 8.11,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.5,
+            0.52
+          ],
+          "orientation": 2.95
+        },
+        {
+          "Name of the detected object": "sheep",
+          "Distance of the object from you (in meters)": 2.15,
+          "Dimensions of the object (in meters)": [
+            0.4,
+            0.43,
+            0.49
+          ],
+          "orientation": 5.8
+        },
+        {
+          "Name of the detected object": "truck",
+          "Distance of the object from you (in meters)": 4.7,
+          "Dimensions of the object (in meters)": [
+            3.02,
+            2.6,
+            11.12
+          ],
+          "orientation": 2.54
+        }
+      ],
+      "vlm": "I\u2019m in a room with two red chairs, a table, a wooden door, and a messy dressing area; I need to avoid obstacles to safely fly out through the door.",
+      "sensors": {
+        "Left Clearance": 1105,
+        "Right Clearance": 646,
+        "Front Clearance": 1210,
+        "Back Clearance": 1429,
+        "Up Clearance": 1367,
+        "Bottom Clearance": 1139,
+        "AccelX": 0.09,
+        "AccelY": -0.01,
+        "AccelZ": -0.03,
+        "GyroX": -0.02,
+        "GyroY": 0.03,
+        "GyroZ": 0.09
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": -0.00297,
+      "yaw": 0.14
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780487",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 654,
+        "Right Clearance": 1787,
+        "Front Clearance": 511,
+        "Back Clearance": 1729,
+        "Up Clearance": 1120,
+        "Bottom Clearance": 325,
+        "AccelX": -0.01,
+        "AccelY": 0.08,
+        "AccelZ": 0.1,
+        "GyroX": 0.05,
+        "GyroY": 0.05,
+        "GyroZ": -0.01
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": 0.009900000000000003,
+      "yaw": -0.060000000000000005
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780511",
+      "yolo": [
+        {
+          "Name of the detected object": "keyboard",
+          "Distance of the object from you (in meters)": 3.8,
+          "Dimensions of the object (in meters)": [
+            0.01,
+            0.12,
+            0.54
+          ],
+          "orientation": 0.07
+        },
+        {
+          "Name of the detected object": "remote",
+          "Distance of the object from you (in meters)": 6.01,
+          "Dimensions of the object (in meters)": [
+            0.55,
+            0.5,
+            0.58
+          ],
+          "orientation": 1.37
+        },
+        {
+          "Name of the detected object": "banana",
+          "Distance of the object from you (in meters)": 6.93,
+          "Dimensions of the object (in meters)": [
+            0.51,
+            0.55,
+            0.58
+          ],
+          "orientation": 0.43
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1556,
+        "Right Clearance": 305,
+        "Front Clearance": 656,
+        "Back Clearance": 1869,
+        "Up Clearance": 1446,
+        "Bottom Clearance": 1498,
+        "AccelX": -0.01,
+        "AccelY": 0.08,
+        "AccelZ": -0.04,
+        "GyroX": -0.08,
+        "GyroY": 0.25,
+        "GyroZ": 0.32
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": -0.00396,
+      "yaw": 0.37
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780553",
+      "yolo": [
+        {
+          "Name of the detected object": "baseball bat",
+          "Distance of the object from you (in meters)": 1.83,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.49,
+            0.45
+          ],
+          "orientation": 5.05
+        },
+        {
+          "Name of the detected object": "cow",
+          "Distance of the object from you (in meters)": 1.92,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.52,
+            0.46
+          ],
+          "orientation": 1.99
+        },
+        {
+          "Name of the detected object": "cup",
+          "Distance of the object from you (in meters)": 9.39,
+          "Dimensions of the object (in meters)": [
+            0.1,
+            0.09,
+            0.16
+          ],
+          "orientation": 5.6
+        },
+        {
+          "Name of the detected object": "surfboard",
+          "Distance of the object from you (in meters)": 6.71,
+          "Dimensions of the object (in meters)": [
+            0.43,
+            0.59,
+            0.52
+          ],
+          "orientation": -0.0
+        },
+        {
+          "Name of the detected object": "sink",
+          "Distance of the object from you (in meters)": 6.18,
+          "Dimensions of the object (in meters)": [
+            0.66,
+            0.46,
+            0.56
+          ],
+          "orientation": 4.39
+        }
+      ],
+      "vlm": "As a drone, I\u2019m navigating a room with a bed, a table with books and a vase, a desk with a laptop, and a window with patterned curtains; I must avoid collisions.",
+      "sensors": {
+        "Left Clearance": 1462,
+        "Right Clearance": 844,
+        "Front Clearance": 1512,
+        "Back Clearance": 1019,
+        "Up Clearance": 1185,
+        "Bottom Clearance": 1010,
+        "AccelX": 0.09,
+        "AccelY": 0.01,
+        "AccelZ": 0.01,
+        "GyroX": 0.19,
+        "GyroY": -0.08,
+        "GyroZ": 0.12
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": 0.00099,
+      "yaw": 0.06999999999999999
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780608",
+      "yolo": [
+        {
+          "Name of the detected object": "oven",
+          "Distance of the object from you (in meters)": 2.84,
+          "Dimensions of the object (in meters)": [
+            0.44,
+            0.55,
+            0.45
+          ],
+          "orientation": 2.18
+        },
+        {
+          "Name of the detected object": "mouse",
+          "Distance of the object from you (in meters)": 1.16,
+          "Dimensions of the object (in meters)": [
+            0.11,
+            0.08,
+            0.23
+          ],
+          "orientation": 0.89
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 632,
+        "Right Clearance": 865,
+        "Front Clearance": 1416,
+        "Back Clearance": 1693,
+        "Up Clearance": 387,
+        "Bottom Clearance": 745,
+        "AccelX": -0.09,
+        "AccelY": 0.16,
+        "AccelZ": -0.09,
+        "GyroX": -0.01,
+        "GyroY": 0.03,
+        "GyroZ": -0.12
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.5,
+      "vz": -0.00891,
+      "yaw": -0.06999999999999999
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780645",
+      "yolo": [
+        {
+          "Name of the detected object": "bench",
+          "Distance of the object from you (in meters)": 9.7,
+          "Dimensions of the object (in meters)": [
+            0.44,
+            0.64,
+            0.6
+          ],
+          "orientation": 3.81
+        },
+        {
+          "Name of the detected object": "bowl",
+          "Distance of the object from you (in meters)": 1.61,
+          "Dimensions of the object (in meters)": [
+            0.57,
+            0.5,
+            0.39
+          ],
+          "orientation": 2.5
+        },
+        {
+          "Name of the detected object": "kite",
+          "Distance of the object from you (in meters)": 6.63,
+          "Dimensions of the object (in meters)": [
+            0.42,
+            0.53,
+            0.55
+          ],
+          "orientation": 3.1
+        },
+        {
+          "Name of the detected object": "cup",
+          "Distance of the object from you (in meters)": 1.33,
+          "Dimensions of the object (in meters)": [
+            0.14,
+            0.08,
+            0.11
+          ],
+          "orientation": 5.15
+        }
+      ],
+      "vlm": "I\u2019m in a small room with a red sofa, a dining table with chairs, a sink, a window with bars, and a closed door; I need to avoid obstacles like the hanging bags.",
+      "sensors": {
+        "Left Clearance": 1846,
+        "Right Clearance": 1511,
+        "Front Clearance": 1617,
+        "Back Clearance": 1353,
+        "Up Clearance": 812,
+        "Bottom Clearance": 1093,
+        "AccelX": 0.1,
+        "AccelY": 0.09,
+        "AccelZ": -0.07,
+        "GyroX": 0.09,
+        "GyroY": -0.1,
+        "GyroZ": -0.02
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.5,
+      "vz": -0.006930000000000001,
+      "yaw": 0.030000000000000002
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780705",
+      "yolo": [
+        {
+          "Name of the detected object": "parking meter",
+          "Distance of the object from you (in meters)": 9.4,
+          "Dimensions of the object (in meters)": [
+            0.56,
+            0.5,
+            0.55
+          ],
+          "orientation": 5.96
+        },
+        {
+          "Name of the detected object": "pizza",
+          "Distance of the object from you (in meters)": 7.64,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.5,
+            0.47
+          ],
+          "orientation": 3.14
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 420,
+        "Right Clearance": 1573,
+        "Front Clearance": 1098,
+        "Back Clearance": 1008,
+        "Up Clearance": 1164,
+        "Bottom Clearance": 439,
+        "AccelX": -0.06,
+        "AccelY": -0.13,
+        "AccelZ": 0.07,
+        "GyroX": 0.14,
+        "GyroY": 0.01,
+        "GyroZ": 0.06
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": 0.006930000000000001,
+      "yaw": 0.009999999999999995
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780746",
+      "yolo": [
+        {
+          "Name of the detected object": "fork",
+          "Distance of the object from you (in meters)": 1.74,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.49,
+            0.52
+          ],
+          "orientation": 1.66
+        },
+        {
+          "Name of the detected object": "kite",
+          "Distance of the object from you (in meters)": 9.83,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.46,
+            0.39
+          ],
+          "orientation": 3.99
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1826,
+        "Right Clearance": 1279,
+        "Front Clearance": 1928,
+        "Back Clearance": 1819,
+        "Up Clearance": 1629,
+        "Bottom Clearance": 1446,
+        "AccelX": 0.18,
+        "AccelY": -0.01,
+        "AccelZ": 0.18,
+        "GyroX": -0.03,
+        "GyroY": 0.01,
+        "GyroZ": 0.12
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": 0.01782,
+      "yaw": 0.06999999999999999
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780783",
+      "yolo": [
+        {
+          "Name of the detected object": "person",
+          "Distance of the object from you (in meters)": 4.36,
+          "Dimensions of the object (in meters)": [
+            1.72,
+            0.63,
+            0.66
+          ],
+          "orientation": 3.43
+        },
+        {
+          "Name of the detected object": "orange",
+          "Distance of the object from you (in meters)": 2.95,
+          "Dimensions of the object (in meters)": [
+            0.62,
+            0.5,
+            0.5
+          ],
+          "orientation": 2.85
+        },
+        {
+          "Name of the detected object": "baseball glove",
+          "Distance of the object from you (in meters)": 3.32,
+          "Dimensions of the object (in meters)": [
+            0.46,
+            0.53,
+            0.43
+          ],
+          "orientation": 2.28
+        },
+        {
+          "Name of the detected object": "book",
+          "Distance of the object from you (in meters)": 2.99,
+          "Dimensions of the object (in meters)": [
+            0.03,
+            0.16,
+            0.1
+          ],
+          "orientation": 2.0
+        }
+      ],
+      "vlm": "I notice a doorway leading to a dining area with a table, chairs, and a bathroom in the background, while a bedroom with a cluttered dressing table, mirror, and bed is on the right; I should fly through the doorway and avoid the furniture.",
+      "sensors": {
+        "Left Clearance": 1441,
+        "Right Clearance": 566,
+        "Front Clearance": 806,
+        "Back Clearance": 1974,
+        "Up Clearance": 542,
+        "Bottom Clearance": 1937,
+        "AccelX": -0.02,
+        "AccelY": -0.13,
+        "AccelZ": 0.01,
+        "GyroX": 0.08,
+        "GyroY": -0.13,
+        "GyroZ": 0.06
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.5,
+      "vz": 0.00099,
+      "yaw": 0.11
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780835",
+      "yolo": [
+        {
+          "Name of the detected object": "umbrella",
+          "Distance of the object from you (in meters)": 7.73,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.36,
+            0.47
+          ],
+          "orientation": 2.51
+        },
+        {
+          "Name of the detected object": "carrot",
+          "Distance of the object from you (in meters)": 1.74,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.55,
+            0.55
+          ],
+          "orientation": 1.59
+        },
+        {
+          "Name of the detected object": "laptop",
+          "Distance of the object from you (in meters)": 3.09,
+          "Dimensions of the object (in meters)": [
+            0.01,
+            0.27,
+            0.47
+          ],
+          "orientation": 4.62
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 459,
+        "Right Clearance": 1724,
+        "Front Clearance": 1321,
+        "Back Clearance": 1127,
+        "Up Clearance": 1271,
+        "Bottom Clearance": 502,
+        "AccelX": -0.03,
+        "AccelY": -0.05,
+        "AccelZ": 0.05,
+        "GyroX": -0.14,
+        "GyroY": 0.09,
+        "GyroZ": 0.07
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": 0.004950000000000001,
+      "yaw": 0.020000000000000004
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780879",
+      "yolo": [
+        {
+          "Name of the detected object": "traffic light",
+          "Distance of the object from you (in meters)": 4.98,
+          "Dimensions of the object (in meters)": [
+            0.54,
+            0.51,
+            0.55
+          ],
+          "orientation": 6.22
+        },
+        {
+          "Name of the detected object": "dining table",
+          "Distance of the object from you (in meters)": 4.55,
+          "Dimensions of the object (in meters)": [
+            0.84,
+            1.25,
+            1.15
+          ],
+          "orientation": 4.2
+        },
+        {
+          "Name of the detected object": "teddy bear",
+          "Distance of the object from you (in meters)": 3.93,
+          "Dimensions of the object (in meters)": [
+            0.42,
+            0.49,
+            0.5
+          ],
+          "orientation": 3.5
+        },
+        {
+          "Name of the detected object": "bicycle",
+          "Distance of the object from you (in meters)": 4.87,
+          "Dimensions of the object (in meters)": [
+            1.36,
+            0.66,
+            1.77
+          ],
+          "orientation": 2.74
+        }
+      ],
+      "vlm": "I notice a doorway leading to a dining area with a table, chairs, and a bathroom in the background, while a bedroom with a cluttered dressing table, mirror, and bed is on the right; I should fly through the doorway and avoid the furniture.",
+      "sensors": {
+        "Left Clearance": 1573,
+        "Right Clearance": 852,
+        "Front Clearance": 1266,
+        "Back Clearance": 1508,
+        "Up Clearance": 745,
+        "Bottom Clearance": 478,
+        "AccelX": 0.14,
+        "AccelY": -0.05,
+        "AccelZ": 0.19,
+        "GyroX": 0.14,
+        "GyroY": -0.02,
+        "GyroZ": 0.22
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.5,
+      "vz": 0.018810000000000004,
+      "yaw": 0.27
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780933",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 582,
+        "Right Clearance": 1393,
+        "Front Clearance": 1860,
+        "Back Clearance": 1689,
+        "Up Clearance": 1772,
+        "Bottom Clearance": 1224,
+        "AccelX": -0.01,
+        "AccelY": -0.08,
+        "AccelZ": -0.03,
+        "GyroX": 0.0,
+        "GyroY": 0.06,
+        "GyroZ": -0.06
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.5,
+      "vz": -0.00297,
+      "yaw": -0.009999999999999995
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.780963",
+      "yolo": [
+        {
+          "Name of the detected object": "skateboard",
+          "Distance of the object from you (in meters)": 3.63,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.56,
+            0.51
+          ],
+          "orientation": 4.95
+        },
+        {
+          "Name of the detected object": "frisbee",
+          "Distance of the object from you (in meters)": 10.01,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.45,
+            0.52
+          ],
+          "orientation": 1.68
+        },
+        {
+          "Name of the detected object": "bench",
+          "Distance of the object from you (in meters)": 7.57,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.54,
+            0.54
+          ],
+          "orientation": 4.58
+        },
+        {
+          "Name of the detected object": "baseball bat",
+          "Distance of the object from you (in meters)": 4.18,
+          "Dimensions of the object (in meters)": [
+            0.41,
+            0.52,
+            0.47
+          ],
+          "orientation": 1.42
+        }
+      ],
+      "vlm": "I detect an open doorway leading to a dining area with a table, chairs, and a bathroom in the background, while a bedroom with a cluttered dressing table, mirror, and bed is on the right; I should fly through the doorway and avoid obstacles.",
+      "sensors": {
+        "Left Clearance": 100,
+        "Right Clearance": 1699,
+        "Front Clearance": 531,
+        "Back Clearance": 540,
+        "Up Clearance": 835,
+        "Bottom Clearance": 984,
+        "AccelX": -0.05,
+        "AccelY": 0.05,
+        "AccelZ": -0.17,
+        "GyroX": -0.07,
+        "GyroY": -0.22,
+        "GyroZ": 0.14
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.004950000000000001,
+      "vz": -0.01683,
+      "yaw": 0.09000000000000001
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781022",
+      "yolo": [
+        {
+          "Name of the detected object": "sheep",
+          "Distance of the object from you (in meters)": 2.36,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.56,
+            0.51
+          ],
+          "orientation": 1.99
+        },
+        {
+          "Name of the detected object": "boat",
+          "Distance of the object from you (in meters)": 9.66,
+          "Dimensions of the object (in meters)": [
+            0.55,
+            0.48,
+            0.52
+          ],
+          "orientation": 0.84
+        },
+        {
+          "Name of the detected object": "potted plant",
+          "Distance of the object from you (in meters)": 8.81,
+          "Dimensions of the object (in meters)": [
+            0.79,
+            0.35,
+            0.48
+          ],
+          "orientation": 2.06
+        },
+        {
+          "Name of the detected object": "broccoli",
+          "Distance of the object from you (in meters)": 0.77,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.52,
+            0.46
+          ],
+          "orientation": 2.43
+        }
+      ],
+      "vlm": "I notice an open doorway to a dining room with a table, chairs, and a bathroom, while a bedroom with a dressing table, mirror, and bed is on my right; I must navigate through the doorway and steer clear of the furniture.",
+      "sensors": {
+        "Left Clearance": 298,
+        "Right Clearance": 1605,
+        "Front Clearance": 709,
+        "Back Clearance": 1131,
+        "Up Clearance": 1311,
+        "Bottom Clearance": 1715,
+        "AccelX": 0.0,
+        "AccelY": 0.02,
+        "AccelZ": 0.06,
+        "GyroX": -0.2,
+        "GyroY": -0.03,
+        "GyroZ": -0.05
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.00198,
+      "vz": 0.00594,
+      "yaw": -0.1
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781074",
+      "yolo": [
+        {
+          "Name of the detected object": "carrot",
+          "Distance of the object from you (in meters)": 7.52,
+          "Dimensions of the object (in meters)": [
+            0.51,
+            0.51,
+            0.55
+          ],
+          "orientation": 1.14
+        },
+        {
+          "Name of the detected object": "keyboard",
+          "Distance of the object from you (in meters)": 5.7,
+          "Dimensions of the object (in meters)": [
+            0.18,
+            0.14,
+            0.49
+          ],
+          "orientation": 1.39
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 874,
+        "Right Clearance": 264,
+        "Front Clearance": 1344,
+        "Back Clearance": 1365,
+        "Up Clearance": 1459,
+        "Bottom Clearance": 304,
+        "AccelX": -0.03,
+        "AccelY": 0.1,
+        "AccelZ": -0.15,
+        "GyroX": -0.31,
+        "GyroY": -0.04,
+        "GyroZ": 0.06
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.009900000000000003,
+      "vz": -0.014849999999999999,
+      "yaw": 0.11
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781112",
+      "yolo": [
+        {
+          "Name of the detected object": "bus",
+          "Distance of the object from you (in meters)": 1.04,
+          "Dimensions of the object (in meters)": [
+            3.06,
+            2.63,
+            11.15
+          ],
+          "orientation": 2.11
+        }
+      ],
+      "vlm": "bus at 1.04m ahead",
+      "sensors": {
+        "Left Clearance": 252,
+        "Right Clearance": 1976,
+        "Front Clearance": 1599,
+        "Back Clearance": 1033,
+        "Up Clearance": 1099,
+        "Bottom Clearance": 1360,
+        "AccelX": 0.09,
+        "AccelY": -0.13,
+        "AccelZ": 0.18,
+        "GyroX": 0.01,
+        "GyroY": 0.03,
+        "GyroZ": -0.07
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.012870000000000001,
+      "vz": 0.01782,
+      "yaw": -0.12000000000000001
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781147",
+      "yolo": [
+        {
+          "Name of the detected object": "dog",
+          "Distance of the object from you (in meters)": 3.21,
+          "Dimensions of the object (in meters)": [
+            0.75,
+            0.44,
+            1.13
+          ],
+          "orientation": 1.93
+        },
+        {
+          "Name of the detected object": "suitcase",
+          "Distance of the object from you (in meters)": 0.75,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.53,
+            0.57
+          ],
+          "orientation": 0.33
+        },
+        {
+          "Name of the detected object": "bottle",
+          "Distance of the object from you (in meters)": 9.16,
+          "Dimensions of the object (in meters)": [
+            0.32,
+            0.19,
+            0.03
+          ],
+          "orientation": 5.1
+        },
+        {
+          "Name of the detected object": "skis",
+          "Distance of the object from you (in meters)": 6.42,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.59,
+            0.5
+          ],
+          "orientation": 3.72
+        },
+        {
+          "Name of the detected object": "dining table",
+          "Distance of the object from you (in meters)": 5.88,
+          "Dimensions of the object (in meters)": [
+            0.76,
+            1.14,
+            1.24
+          ],
+          "orientation": 5.86
+        }
+      ],
+      "vlm": "I see a living room with two red sofas, a wooden door at the center, a backpack on the wall, two small tables with decor, and a refrigerator near a window; I must navigate around obstacles safely.",
+      "sensors": {
+        "Left Clearance": 305,
+        "Right Clearance": 1088,
+        "Front Clearance": 774,
+        "Back Clearance": 794,
+        "Up Clearance": 1754,
+        "Bottom Clearance": 576,
+        "AccelX": 0.05,
+        "AccelY": 0.01,
+        "AccelZ": -0.14,
+        "GyroX": -0.03,
+        "GyroY": -0.11,
+        "GyroZ": -0.03
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.00099,
+      "vz": -0.013860000000000003,
+      "yaw": -0.08
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781207",
+      "yolo": [
+        {
+          "Name of the detected object": "zebra",
+          "Distance of the object from you (in meters)": 7.92,
+          "Dimensions of the object (in meters)": [
+            0.55,
+            0.52,
+            0.47
+          ],
+          "orientation": 2.18
+        },
+        {
+          "Name of the detected object": "skis",
+          "Distance of the object from you (in meters)": 8.33,
+          "Dimensions of the object (in meters)": [
+            0.45,
+            0.52,
+            0.43
+          ],
+          "orientation": 5.73
+        },
+        {
+          "Name of the detected object": "bird",
+          "Distance of the object from you (in meters)": 8.23,
+          "Dimensions of the object (in meters)": [
+            0.44,
+            0.59,
+            0.58
+          ],
+          "orientation": 5.29
+        },
+        {
+          "Name of the detected object": "keyboard",
+          "Distance of the object from you (in meters)": 2.9,
+          "Dimensions of the object (in meters)": [
+            0.17,
+            0.1,
+            0.53
+          ],
+          "orientation": 0.66
+        }
+      ],
+      "vlm": "I\u2019m an autonomous drone in a living room with two red chairs, a table, a wooden door, and a cluttered dressing area; I must avoid obstacles to fly out the door safely.",
+      "sensors": {
+        "Left Clearance": 115,
+        "Right Clearance": 1084,
+        "Front Clearance": 1020,
+        "Back Clearance": 754,
+        "Up Clearance": 1148,
+        "Bottom Clearance": 1213,
+        "AccelX": -0.14,
+        "AccelY": 0.08,
+        "AccelZ": -0.09,
+        "GyroX": -0.06,
+        "GyroY": -0.06,
+        "GyroZ": 0.21
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.00792,
+      "vz": -0.00891,
+      "yaw": 0.15999999999999998
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781258",
+      "yolo": [
+        {
+          "Name of the detected object": "wine glass",
+          "Distance of the object from you (in meters)": 2.22,
+          "Dimensions of the object (in meters)": [
+            0.43,
+            0.46,
+            0.49
+          ],
+          "orientation": 3.06
+        },
+        {
+          "Name of the detected object": "hot dog",
+          "Distance of the object from you (in meters)": 6.12,
+          "Dimensions of the object (in meters)": [
+            0.46,
+            0.52,
+            0.56
+          ],
+          "orientation": 5.0
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 213,
+        "Right Clearance": 1447,
+        "Front Clearance": 756,
+        "Back Clearance": 445,
+        "Up Clearance": 1994,
+        "Bottom Clearance": 1557,
+        "AccelX": 0.12,
+        "AccelY": -0.01,
+        "AccelZ": 0.02,
+        "GyroX": -0.06,
+        "GyroY": -0.03,
+        "GyroZ": -0.08
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.00099,
+      "vz": 0.00198,
+      "yaw": -0.13
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781294",
+      "yolo": [
+        {
+          "Name of the detected object": "fork",
+          "Distance of the object from you (in meters)": 1.91,
+          "Dimensions of the object (in meters)": [
+            0.51,
+            0.51,
+            0.4
+          ],
+          "orientation": 3.2
+        },
+        {
+          "Name of the detected object": "potted plant",
+          "Distance of the object from you (in meters)": 9.26,
+          "Dimensions of the object (in meters)": [
+            0.83,
+            0.36,
+            0.47
+          ],
+          "orientation": 2.26
+        },
+        {
+          "Name of the detected object": "horse",
+          "Distance of the object from you (in meters)": 3.04,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.57,
+            0.51
+          ],
+          "orientation": 0.63
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 244,
+        "Right Clearance": 569,
+        "Front Clearance": 796,
+        "Back Clearance": 1804,
+        "Up Clearance": 497,
+        "Bottom Clearance": 1736,
+        "AccelX": 0.06,
+        "AccelY": 0.15,
+        "AccelZ": 0.26,
+        "GyroX": -0.06,
+        "GyroY": 0.02,
+        "GyroZ": -0.11
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.014849999999999999,
+      "vz": 0.025740000000000002,
+      "yaw": -0.06
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781337",
+      "yolo": [
+        {
+          "Name of the detected object": "boat",
+          "Distance of the object from you (in meters)": 5.06,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.53,
+            0.52
+          ],
+          "orientation": 1.82
+        }
+      ],
+      "vlm": "boat at 5.06m ahead",
+      "sensors": {
+        "Left Clearance": 197,
+        "Right Clearance": 645,
+        "Front Clearance": 1708,
+        "Back Clearance": 737,
+        "Up Clearance": 1771,
+        "Bottom Clearance": 667,
+        "AccelX": -0.05,
+        "AccelY": 0.06,
+        "AccelZ": 0.02,
+        "GyroX": -0.03,
+        "GyroY": -0.09,
+        "GyroZ": -0.05
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.00594,
+      "vz": 0.00198,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781376",
+      "yolo": [
+        {
+          "Name of the detected object": "zebra",
+          "Distance of the object from you (in meters)": 2.38,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.59,
+            0.42
+          ],
+          "orientation": 0.32
+        },
+        {
+          "Name of the detected object": "spoon",
+          "Distance of the object from you (in meters)": 3.45,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.44,
+            0.49
+          ],
+          "orientation": 0.84
+        },
+        {
+          "Name of the detected object": "scissors",
+          "Distance of the object from you (in meters)": 4.57,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.59,
+            0.54
+          ],
+          "orientation": 4.6
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 118,
+        "Right Clearance": 397,
+        "Front Clearance": 1442,
+        "Back Clearance": 1802,
+        "Up Clearance": 998,
+        "Bottom Clearance": 1924,
+        "AccelX": 0.16,
+        "AccelY": -0.07,
+        "AccelZ": -0.15,
+        "GyroX": 0.03,
+        "GyroY": 0.21,
+        "GyroZ": 0.04
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.006930000000000001,
+      "vz": -0.014849999999999999,
+      "yaw": 0.09
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781418",
+      "yolo": [
+        {
+          "Name of the detected object": "broccoli",
+          "Distance of the object from you (in meters)": 6.26,
+          "Dimensions of the object (in meters)": [
+            0.58,
+            0.53,
+            0.53
+          ],
+          "orientation": 4.28
+        },
+        {
+          "Name of the detected object": "sheep",
+          "Distance of the object from you (in meters)": 5.33,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.47,
+            0.55
+          ],
+          "orientation": 6.26
+        },
+        {
+          "Name of the detected object": "skateboard",
+          "Distance of the object from you (in meters)": 9.13,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.54,
+            0.46
+          ],
+          "orientation": 0.65
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 210,
+        "Right Clearance": 989,
+        "Front Clearance": 1183,
+        "Back Clearance": 1423,
+        "Up Clearance": 1524,
+        "Bottom Clearance": 1213,
+        "AccelX": 0.08,
+        "AccelY": 0.2,
+        "AccelZ": 0.0,
+        "GyroX": -0.23,
+        "GyroY": 0.02,
+        "GyroZ": 0.06
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.019800000000000005,
+      "vz": 0.0,
+      "yaw": 0.11
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781465",
+      "yolo": [
+        {
+          "Name of the detected object": "cat",
+          "Distance of the object from you (in meters)": 9.97,
+          "Dimensions of the object (in meters)": [
+            0.35,
+            0.37,
+            0.69
+          ],
+          "orientation": 0.84
+        },
+        {
+          "Name of the detected object": "book",
+          "Distance of the object from you (in meters)": 8.83,
+          "Dimensions of the object (in meters)": [
+            0.02,
+            0.21,
+            0.15
+          ],
+          "orientation": 0.68
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 64,
+        "Right Clearance": 1458,
+        "Front Clearance": 882,
+        "Back Clearance": 603,
+        "Up Clearance": 2004,
+        "Bottom Clearance": 1792,
+        "AccelX": 0.07,
+        "AccelY": -0.03,
+        "AccelZ": 0.0,
+        "GyroX": 0.09,
+        "GyroY": 0.15,
+        "GyroZ": 0.18
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.00297,
+      "vz": 0.0,
+      "yaw": 0.13
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781502",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 86,
+        "Right Clearance": 1539,
+        "Front Clearance": 1647,
+        "Back Clearance": 1400,
+        "Up Clearance": 1013,
+        "Bottom Clearance": 1270,
+        "AccelX": -0.06,
+        "AccelY": 0.12,
+        "AccelZ": -0.27,
+        "GyroX": 0.07,
+        "GyroY": -0.03,
+        "GyroZ": 0.06
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.01188,
+      "vz": -0.026730000000000004,
+      "yaw": 0.009999999999999995
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781527",
+      "yolo": [
+        {
+          "Name of the detected object": "hair drier",
+          "Distance of the object from you (in meters)": 2.76,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.44,
+            0.5
+          ],
+          "orientation": 4.92
+        }
+      ],
+      "vlm": "hair drier at 2.76m ahead",
+      "sensors": {
+        "Left Clearance": 187,
+        "Right Clearance": 812,
+        "Front Clearance": 706,
+        "Back Clearance": 1524,
+        "Up Clearance": 1990,
+        "Bottom Clearance": 998,
+        "AccelX": -0.08,
+        "AccelY": 0.05,
+        "AccelZ": -0.06,
+        "GyroX": 0.03,
+        "GyroY": -0.05,
+        "GyroZ": 0.01
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.004950000000000001,
+      "vz": -0.00594,
+      "yaw": 0.060000000000000005
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781561",
+      "yolo": [
+        {
+          "Name of the detected object": "truck",
+          "Distance of the object from you (in meters)": 0.85,
+          "Dimensions of the object (in meters)": [
+            3.09,
+            2.6,
+            11.14
+          ],
+          "orientation": 0.43
+        },
+        {
+          "Name of the detected object": "surfboard",
+          "Distance of the object from you (in meters)": 6.9,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.56,
+            0.52
+          ],
+          "orientation": 3.79
+        },
+        {
+          "Name of the detected object": "vase",
+          "Distance of the object from you (in meters)": 9.96,
+          "Dimensions of the object (in meters)": [
+            0.29,
+            0.14,
+            0.09
+          ],
+          "orientation": 3.9
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 153,
+        "Right Clearance": 555,
+        "Front Clearance": 525,
+        "Back Clearance": 1093,
+        "Up Clearance": 1497,
+        "Bottom Clearance": 1733,
+        "AccelX": 0.09,
+        "AccelY": -0.27,
+        "AccelZ": -0.02,
+        "GyroX": 0.09,
+        "GyroY": 0.1,
+        "GyroZ": 0.13
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.026730000000000004,
+      "vz": -0.00198,
+      "yaw": 0.18
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781604",
+      "yolo": [
+        {
+          "Name of the detected object": "tv",
+          "Distance of the object from you (in meters)": 7.89,
+          "Dimensions of the object (in meters)": [
+            0.67,
+            0.21,
+            1.19
+          ],
+          "orientation": 0.9
+        },
+        {
+          "Name of the detected object": "baseball glove",
+          "Distance of the object from you (in meters)": 0.69,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.47,
+            0.52
+          ],
+          "orientation": 5.37
+        },
+        {
+          "Name of the detected object": "handbag",
+          "Distance of the object from you (in meters)": 5.95,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.47,
+            0.42
+          ],
+          "orientation": 1.23
+        },
+        {
+          "Name of the detected object": "mouse",
+          "Distance of the object from you (in meters)": 3.25,
+          "Dimensions of the object (in meters)": [
+            -0.02,
+            0.03,
+            0.12
+          ],
+          "orientation": 0.58
+        },
+        {
+          "Name of the detected object": "broccoli",
+          "Distance of the object from you (in meters)": 8.67,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.41,
+            0.51
+          ],
+          "orientation": 0.99
+        }
+      ],
+      "vlm": "I am flying through a room with a bed, a laptop, two red chairs, a desk, and items; I need to steer clear of obstacles to find a clear path.",
+      "sensors": {
+        "Left Clearance": 262,
+        "Right Clearance": 373,
+        "Front Clearance": 1417,
+        "Back Clearance": 942,
+        "Up Clearance": 567,
+        "Bottom Clearance": 438,
+        "AccelX": 0.04,
+        "AccelY": 0.05,
+        "AccelZ": 0.08,
+        "GyroX": -0.15,
+        "GyroY": -0.11,
+        "GyroZ": 0.02
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.004950000000000001,
+      "vz": 0.00792,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781658",
+      "yolo": [
+        {
+          "Name of the detected object": "bench",
+          "Distance of the object from you (in meters)": 7.51,
+          "Dimensions of the object (in meters)": [
+            0.42,
+            0.4,
+            0.59
+          ],
+          "orientation": 3.17
+        },
+        {
+          "Name of the detected object": "zebra",
+          "Distance of the object from you (in meters)": 2.49,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.53,
+            0.47
+          ],
+          "orientation": 5.43
+        },
+        {
+          "Name of the detected object": "bottle",
+          "Distance of the object from you (in meters)": 0.56,
+          "Dimensions of the object (in meters)": [
+            0.27,
+            0.04,
+            0.07
+          ],
+          "orientation": 1.05
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 155,
+        "Right Clearance": 1131,
+        "Front Clearance": 1528,
+        "Back Clearance": 1719,
+        "Up Clearance": 1910,
+        "Bottom Clearance": 981,
+        "AccelX": 0.11,
+        "AccelY": -0.15,
+        "AccelZ": 0.13,
+        "GyroX": -0.06,
+        "GyroY": 0.01,
+        "GyroZ": -0.09
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": -0.014849999999999999,
+      "vz": 0.012870000000000001,
+      "yaw": -0.039999999999999994
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781707",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 182,
+        "Right Clearance": 1004,
+        "Front Clearance": 358,
+        "Back Clearance": 983,
+        "Up Clearance": 778,
+        "Bottom Clearance": 1712,
+        "AccelX": -0.0,
+        "AccelY": 0.09,
+        "AccelZ": 0.23,
+        "GyroX": -0.01,
+        "GyroY": 0.08,
+        "GyroZ": -0.02
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.00891,
+      "vz": 0.022770000000000002,
+      "yaw": -0.07
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781732",
+      "yolo": [
+        {
+          "Name of the detected object": "motorcycle",
+          "Distance of the object from you (in meters)": 8.42,
+          "Dimensions of the object (in meters)": [
+            1.44,
+            0.86,
+            2.2
+          ],
+          "orientation": 5.24
+        }
+      ],
+      "vlm": "motorcycle at 8.42m ahead",
+      "sensors": {
+        "Left Clearance": 595,
+        "Right Clearance": 251,
+        "Front Clearance": 1062,
+        "Back Clearance": 675,
+        "Up Clearance": 1992,
+        "Bottom Clearance": 1482,
+        "AccelX": 0.09,
+        "AccelY": 0.07,
+        "AccelZ": 0.05,
+        "GyroX": -0.06,
+        "GyroY": 0.1,
+        "GyroZ": -0.09
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": 0.006930000000000001,
+      "vz": 0.004950000000000001,
+      "yaw": -0.039999999999999994
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781768",
+      "yolo": [
+        {
+          "Name of the detected object": "refrigerator",
+          "Distance of the object from you (in meters)": 4.52,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.48,
+            0.47
+          ],
+          "orientation": 5.81
+        },
+        {
+          "Name of the detected object": "bench",
+          "Distance of the object from you (in meters)": 3.62,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.51,
+            0.43
+          ],
+          "orientation": 2.13
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 560,
+        "Right Clearance": 50,
+        "Front Clearance": 1306,
+        "Back Clearance": 1558,
+        "Up Clearance": 696,
+        "Bottom Clearance": 1413,
+        "AccelX": 0.08,
+        "AccelY": -0.01,
+        "AccelZ": 0.1,
+        "GyroX": -0.03,
+        "GyroY": 0.05,
+        "GyroZ": -0.06
+      }
+    },
+    "output": {
+      "vx": 0.5,
+      "vy": -0.00099,
+      "vz": 0.009900000000000003,
+      "yaw": -0.009999999999999995
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781805",
+      "yolo": [
+        {
+          "Name of the detected object": "truck",
+          "Distance of the object from you (in meters)": 6.89,
+          "Dimensions of the object (in meters)": [
+            3.15,
+            2.67,
+            11.12
+          ],
+          "orientation": 2.68
+        }
+      ],
+      "vlm": "truck at 6.89m ahead",
+      "sensors": {
+        "Left Clearance": 1576,
+        "Right Clearance": 1430,
+        "Front Clearance": 901,
+        "Back Clearance": 220,
+        "Up Clearance": 1050,
+        "Bottom Clearance": 1787,
+        "AccelX": -0.06,
+        "AccelY": -0.22,
+        "AccelZ": 0.06,
+        "GyroX": -0.24,
+        "GyroY": -0.09,
+        "GyroZ": 0.03
+      }
+    },
+    "output": {
+      "vx": -0.00594,
+      "vy": -0.5,
+      "vz": 0.00594,
+      "yaw": 0.08
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781838",
+      "yolo": [
+        {
+          "Name of the detected object": "train",
+          "Distance of the object from you (in meters)": 0.64,
+          "Dimensions of the object (in meters)": [
+            0.56,
+            0.51,
+            0.51
+          ],
+          "orientation": 5.35
+        },
+        {
+          "Name of the detected object": "cell phone",
+          "Distance of the object from you (in meters)": 1.47,
+          "Dimensions of the object (in meters)": [
+            0.51,
+            0.6,
+            0.54
+          ],
+          "orientation": 5.49
+        },
+        {
+          "Name of the detected object": "suitcase",
+          "Distance of the object from you (in meters)": 9.11,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.47,
+            0.52
+          ],
+          "orientation": 4.07
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1163,
+        "Right Clearance": 1825,
+        "Front Clearance": 967,
+        "Back Clearance": 175,
+        "Up Clearance": 574,
+        "Bottom Clearance": 1084,
+        "AccelX": -0.02,
+        "AccelY": -0.14,
+        "AccelZ": 0.08,
+        "GyroX": 0.12,
+        "GyroY": 0.07,
+        "GyroZ": 0.03
+      }
+    },
+    "output": {
+      "vx": -0.00198,
+      "vy": -0.5,
+      "vz": 0.00792,
+      "yaw": -0.020000000000000004
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781896",
+      "yolo": [
+        {
+          "Name of the detected object": "backpack",
+          "Distance of the object from you (in meters)": 2.95,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.52,
+            0.44
+          ],
+          "orientation": 1.29
+        }
+      ],
+      "vlm": "backpack at 2.95m ahead",
+      "sensors": {
+        "Left Clearance": 659,
+        "Right Clearance": 1379,
+        "Front Clearance": 249,
+        "Back Clearance": 897,
+        "Up Clearance": 622,
+        "Bottom Clearance": 1181,
+        "AccelX": -0.12,
+        "AccelY": -0.07,
+        "AccelZ": -0.01,
+        "GyroX": 0.03,
+        "GyroY": -0.02,
+        "GyroZ": 0.04
+      }
+    },
+    "output": {
+      "vx": -0.01188,
+      "vy": 0.5,
+      "vz": -0.00099,
+      "yaw": -0.010000000000000002
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781933",
+      "yolo": [
+        {
+          "Name of the detected object": "vase",
+          "Distance of the object from you (in meters)": 3.67,
+          "Dimensions of the object (in meters)": [
+            0.26,
+            0.17,
+            0.15
+          ],
+          "orientation": 5.75
+        }
+      ],
+      "vlm": "vase at 3.67m ahead",
+      "sensors": {
+        "Left Clearance": 1497,
+        "Right Clearance": 1363,
+        "Front Clearance": 1548,
+        "Back Clearance": 92,
+        "Up Clearance": 915,
+        "Bottom Clearance": 1597,
+        "AccelX": -0.03,
+        "AccelY": -0.08,
+        "AccelZ": 0.07,
+        "GyroX": 0.09,
+        "GyroY": 0.08,
+        "GyroZ": 0.01
+      }
+    },
+    "output": {
+      "vx": -0.00297,
+      "vy": -0.5,
+      "vz": 0.006930000000000001,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.781973",
+      "yolo": [
+        {
+          "Name of the detected object": "sink",
+          "Distance of the object from you (in meters)": 4.28,
+          "Dimensions of the object (in meters)": [
+            0.59,
+            0.56,
+            0.51
+          ],
+          "orientation": 4.79
+        },
+        {
+          "Name of the detected object": "bench",
+          "Distance of the object from you (in meters)": 8.82,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.49,
+            0.51
+          ],
+          "orientation": 0.92
+        },
+        {
+          "Name of the detected object": "toothbrush",
+          "Distance of the object from you (in meters)": 7.85,
+          "Dimensions of the object (in meters)": [
+            0.59,
+            0.42,
+            0.44
+          ],
+          "orientation": 2.27
+        },
+        {
+          "Name of the detected object": "knife",
+          "Distance of the object from you (in meters)": 2.87,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.58,
+            0.48
+          ],
+          "orientation": 0.67
+        },
+        {
+          "Name of the detected object": "sheep",
+          "Distance of the object from you (in meters)": 4.83,
+          "Dimensions of the object (in meters)": [
+            0.51,
+            0.42,
+            0.44
+          ],
+          "orientation": 2.13
+        }
+      ],
+      "vlm": "I see a doorway ahead connecting to a dining space with a table, chairs, and a bathroom, while a bedroom with a dressing table, mirror, and bed is on my right; I need to navigate through the doorway and steer clear of objects.",
+      "sensors": {
+        "Left Clearance": 1789,
+        "Right Clearance": 1163,
+        "Front Clearance": 1126,
+        "Back Clearance": 203,
+        "Up Clearance": 870,
+        "Bottom Clearance": 1412,
+        "AccelX": 0.05,
+        "AccelY": 0.19,
+        "AccelZ": -0.11,
+        "GyroX": 0.04,
+        "GyroY": 0.03,
+        "GyroZ": 0.07
+      }
+    },
+    "output": {
+      "vx": 0.004950000000000001,
+      "vy": -0.5,
+      "vz": -0.01089,
+      "yaw": 0.12000000000000001
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782030",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 907,
+        "Right Clearance": 651,
+        "Front Clearance": 215,
+        "Back Clearance": 502,
+        "Up Clearance": 377,
+        "Bottom Clearance": 1821,
+        "AccelX": 0.09,
+        "AccelY": -0.1,
+        "AccelZ": -0.05,
+        "GyroX": 0.21,
+        "GyroY": 0.06,
+        "GyroZ": -0.03
+      }
+    },
+    "output": {
+      "vx": 0.00891,
+      "vy": 0.5,
+      "vz": -0.004950000000000001,
+      "yaw": 0.020000000000000004
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782055",
+      "yolo": [
+        {
+          "Name of the detected object": "mouse",
+          "Distance of the object from you (in meters)": 8.65,
+          "Dimensions of the object (in meters)": [
+            -0.01,
+            -0.01,
+            0.11
+          ],
+          "orientation": 4.67
+        }
+      ],
+      "vlm": "mouse at 8.65m ahead",
+      "sensors": {
+        "Left Clearance": 909,
+        "Right Clearance": 1412,
+        "Front Clearance": 2003,
+        "Back Clearance": 204,
+        "Up Clearance": 1739,
+        "Bottom Clearance": 1439,
+        "AccelX": -0.06,
+        "AccelY": -0.32,
+        "AccelZ": 0.03,
+        "GyroX": 0.14,
+        "GyroY": 0.12,
+        "GyroZ": -0.01
+      }
+    },
+    "output": {
+      "vx": -0.00594,
+      "vy": -0.5,
+      "vz": 0.00297,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782087",
+      "yolo": [
+        {
+          "Name of the detected object": "sandwich",
+          "Distance of the object from you (in meters)": 7.81,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.41,
+            0.5
+          ],
+          "orientation": 4.02
+        },
+        {
+          "Name of the detected object": "refrigerator",
+          "Distance of the object from you (in meters)": 6.65,
+          "Dimensions of the object (in meters)": [
+            0.57,
+            0.56,
+            0.47
+          ],
+          "orientation": 3.08
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 557,
+        "Right Clearance": 853,
+        "Front Clearance": 1783,
+        "Back Clearance": 192,
+        "Up Clearance": 533,
+        "Bottom Clearance": 1111,
+        "AccelX": -0.11,
+        "AccelY": -0.02,
+        "AccelZ": -0.14,
+        "GyroX": 0.01,
+        "GyroY": 0.0,
+        "GyroZ": -0.08
+      }
+    },
+    "output": {
+      "vx": -0.01089,
+      "vy": -0.5,
+      "vz": -0.013860000000000003,
+      "yaw": -0.03
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782137",
+      "yolo": [
+        {
+          "Name of the detected object": "mouse",
+          "Distance of the object from you (in meters)": 1.91,
+          "Dimensions of the object (in meters)": [
+            0.06,
+            0.16,
+            0.14
+          ],
+          "orientation": 1.47
+        },
+        {
+          "Name of the detected object": "potted plant",
+          "Distance of the object from you (in meters)": 5.78,
+          "Dimensions of the object (in meters)": [
+            0.76,
+            0.39,
+            0.34
+          ],
+          "orientation": 3.85
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 928,
+        "Right Clearance": 1403,
+        "Front Clearance": 1979,
+        "Back Clearance": 111,
+        "Up Clearance": 1085,
+        "Bottom Clearance": 580,
+        "AccelX": 0.01,
+        "AccelY": -0.04,
+        "AccelZ": 0.08,
+        "GyroX": 0.05,
+        "GyroY": -0.07,
+        "GyroZ": 0.15
+      }
+    },
+    "output": {
+      "vx": 0.00099,
+      "vy": -0.5,
+      "vz": 0.00792,
+      "yaw": 0.09999999999999999
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782178",
+      "yolo": [
+        {
+          "Name of the detected object": "giraffe",
+          "Distance of the object from you (in meters)": 2.27,
+          "Dimensions of the object (in meters)": [
+            0.46,
+            0.55,
+            0.51
+          ],
+          "orientation": 1.21
+        },
+        {
+          "Name of the detected object": "sheep",
+          "Distance of the object from you (in meters)": 9.67,
+          "Dimensions of the object (in meters)": [
+            0.45,
+            0.58,
+            0.47
+          ],
+          "orientation": 2.12
+        },
+        {
+          "Name of the detected object": "vase",
+          "Distance of the object from you (in meters)": 3.13,
+          "Dimensions of the object (in meters)": [
+            0.24,
+            0.09,
+            0.19
+          ],
+          "orientation": 5.94
+        },
+        {
+          "Name of the detected object": "hair drier",
+          "Distance of the object from you (in meters)": 4.19,
+          "Dimensions of the object (in meters)": [
+            0.44,
+            0.51,
+            0.51
+          ],
+          "orientation": 3.06
+        },
+        {
+          "Name of the detected object": "carrot",
+          "Distance of the object from you (in meters)": 6.24,
+          "Dimensions of the object (in meters)": [
+            0.57,
+            0.48,
+            0.51
+          ],
+          "orientation": 5.52
+        }
+      ],
+      "vlm": "I\u2019m in a living room with two red chairs, a table, a wooden door, and a cluttered dressing area; I must avoid obstacles to safely exit through the door.",
+      "sensors": {
+        "Left Clearance": 518,
+        "Right Clearance": 939,
+        "Front Clearance": 90,
+        "Back Clearance": 1046,
+        "Up Clearance": 1418,
+        "Bottom Clearance": 1045,
+        "AccelX": -0.32,
+        "AccelY": 0.06,
+        "AccelZ": 0.07,
+        "GyroX": 0.09,
+        "GyroY": -0.01,
+        "GyroZ": 0.07
+      }
+    },
+    "output": {
+      "vx": -0.03168,
+      "vy": 0.5,
+      "vz": 0.006930000000000001,
+      "yaw": 0.12000000000000001
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782232",
+      "yolo": [
+        {
+          "Name of the detected object": "airplane",
+          "Distance of the object from you (in meters)": 5.03,
+          "Dimensions of the object (in meters)": [
+            0.43,
+            0.52,
+            0.37
+          ],
+          "orientation": 6.19
+        },
+        {
+          "Name of the detected object": "motorcycle",
+          "Distance of the object from you (in meters)": 7.87,
+          "Dimensions of the object (in meters)": [
+            1.46,
+            0.95,
+            2.21
+          ],
+          "orientation": 5.75
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1750,
+        "Right Clearance": 1694,
+        "Front Clearance": 1423,
+        "Back Clearance": 155,
+        "Up Clearance": 388,
+        "Bottom Clearance": 1876,
+        "AccelX": 0.04,
+        "AccelY": 0.09,
+        "AccelZ": 0.03,
+        "GyroX": 0.01,
+        "GyroY": 0.06,
+        "GyroZ": -0.02
+      }
+    },
+    "output": {
+      "vx": 0.00396,
+      "vy": -0.5,
+      "vz": 0.00297,
+      "yaw": 0.030000000000000002
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782271",
+      "yolo": [
+        {
+          "Name of the detected object": "tv",
+          "Distance of the object from you (in meters)": 3.52,
+          "Dimensions of the object (in meters)": [
+            0.77,
+            0.16,
+            1.18
+          ],
+          "orientation": 0.15
+        },
+        {
+          "Name of the detected object": "fork",
+          "Distance of the object from you (in meters)": 7.15,
+          "Dimensions of the object (in meters)": [
+            0.51,
+            0.49,
+            0.44
+          ],
+          "orientation": 4.73
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1517,
+        "Right Clearance": 1030,
+        "Front Clearance": 913,
+        "Back Clearance": 154,
+        "Up Clearance": 1161,
+        "Bottom Clearance": 1882,
+        "AccelX": -0.02,
+        "AccelY": -0.06,
+        "AccelZ": -0.04,
+        "GyroX": 0.03,
+        "GyroY": -0.13,
+        "GyroZ": 0.03
+      }
+    },
+    "output": {
+      "vx": -0.00198,
+      "vy": -0.5,
+      "vz": -0.00396,
+      "yaw": 0.08
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782312",
+      "yolo": [
+        {
+          "Name of the detected object": "toothbrush",
+          "Distance of the object from you (in meters)": 2.45,
+          "Dimensions of the object (in meters)": [
+            0.55,
+            0.55,
+            0.52
+          ],
+          "orientation": 1.16
+        },
+        {
+          "Name of the detected object": "parking meter",
+          "Distance of the object from you (in meters)": 3.98,
+          "Dimensions of the object (in meters)": [
+            0.59,
+            0.6,
+            0.57
+          ],
+          "orientation": 3.89
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 978,
+        "Right Clearance": 1130,
+        "Front Clearance": 601,
+        "Back Clearance": 105,
+        "Up Clearance": 626,
+        "Bottom Clearance": 1020,
+        "AccelX": 0.09,
+        "AccelY": 0.01,
+        "AccelZ": -0.01,
+        "GyroX": -0.03,
+        "GyroY": -0.09,
+        "GyroZ": 0.11
+      }
+    },
+    "output": {
+      "vx": 0.00891,
+      "vy": -0.5,
+      "vz": -0.00099,
+      "yaw": 0.06
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782348",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 1425,
+        "Right Clearance": 857,
+        "Front Clearance": 1667,
+        "Back Clearance": 200,
+        "Up Clearance": 1062,
+        "Bottom Clearance": 1742,
+        "AccelX": 0.14,
+        "AccelY": -0.03,
+        "AccelZ": -0.07,
+        "GyroX": 0.02,
+        "GyroY": -0.18,
+        "GyroZ": -0.02
+      }
+    },
+    "output": {
+      "vx": 0.013860000000000003,
+      "vy": -0.5,
+      "vz": -0.006930000000000001,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782371",
+      "yolo": [
+        {
+          "Name of the detected object": "remote",
+          "Distance of the object from you (in meters)": 6.0,
+          "Dimensions of the object (in meters)": [
+            0.44,
+            0.53,
+            0.47
+          ],
+          "orientation": 3.26
+        },
+        {
+          "Name of the detected object": "airplane",
+          "Distance of the object from you (in meters)": 10.16,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.51,
+            0.51
+          ],
+          "orientation": 6.07
+        },
+        {
+          "Name of the detected object": "hot dog",
+          "Distance of the object from you (in meters)": 6.37,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.48,
+            0.52
+          ],
+          "orientation": 2.02
+        },
+        {
+          "Name of the detected object": "oven",
+          "Distance of the object from you (in meters)": 5.15,
+          "Dimensions of the object (in meters)": [
+            0.41,
+            0.56,
+            0.51
+          ],
+          "orientation": 5.86
+        },
+        {
+          "Name of the detected object": "bus",
+          "Distance of the object from you (in meters)": 1.64,
+          "Dimensions of the object (in meters)": [
+            3.07,
+            2.7,
+            11.12
+          ],
+          "orientation": 3.71
+        }
+      ],
+      "vlm": "I\u2019m an autonomous drone in a bedroom with a bed, a small table with flowers and books, a desk with a laptop, and a window with blue and white curtains; I need to avoid collisions.",
+      "sensors": {
+        "Left Clearance": 1379,
+        "Right Clearance": 1109,
+        "Front Clearance": 774,
+        "Back Clearance": 63,
+        "Up Clearance": 854,
+        "Bottom Clearance": 1559,
+        "AccelX": -0.08,
+        "AccelY": -0.09,
+        "AccelZ": -0.02,
+        "GyroX": 0.06,
+        "GyroY": -0.03,
+        "GyroZ": 0.06
+      }
+    },
+    "output": {
+      "vx": -0.00792,
+      "vy": -0.5,
+      "vz": -0.00198,
+      "yaw": 0.11
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782425",
+      "yolo": [
+        {
+          "Name of the detected object": "giraffe",
+          "Distance of the object from you (in meters)": 8.92,
+          "Dimensions of the object (in meters)": [
+            0.43,
+            0.51,
+            0.47
+          ],
+          "orientation": 2.88
+        },
+        {
+          "Name of the detected object": "horse",
+          "Distance of the object from you (in meters)": 5.86,
+          "Dimensions of the object (in meters)": [
+            0.54,
+            0.54,
+            0.52
+          ],
+          "orientation": 5.43
+        },
+        {
+          "Name of the detected object": "bird",
+          "Distance of the object from you (in meters)": 5.2,
+          "Dimensions of the object (in meters)": [
+            0.55,
+            0.54,
+            0.45
+          ],
+          "orientation": 3.02
+        },
+        {
+          "Name of the detected object": "kite",
+          "Distance of the object from you (in meters)": 2.05,
+          "Dimensions of the object (in meters)": [
+            0.43,
+            0.45,
+            0.5
+          ],
+          "orientation": 4.43
+        }
+      ],
+      "vlm": "I\u2019m flying through a room with two red couches, a wooden door at the center, a backpack on the wall, two tables with decor, and a fridge by the window; I need to avoid obstacles to proceed.",
+      "sensors": {
+        "Left Clearance": 788,
+        "Right Clearance": 758,
+        "Front Clearance": 1576,
+        "Back Clearance": 270,
+        "Up Clearance": 658,
+        "Bottom Clearance": 825,
+        "AccelX": 0.1,
+        "AccelY": -0.0,
+        "AccelZ": 0.03,
+        "GyroX": 0.13,
+        "GyroY": 0.12,
+        "GyroZ": 0.08
+      }
+    },
+    "output": {
+      "vx": 0.009900000000000003,
+      "vy": -0.5,
+      "vz": 0.00297,
+      "yaw": 0.03
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782475",
+      "yolo": [
+        {
+          "Name of the detected object": "remote",
+          "Distance of the object from you (in meters)": 1.57,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.55,
+            0.47
+          ],
+          "orientation": 4.82
+        },
+        {
+          "Name of the detected object": "hot dog",
+          "Distance of the object from you (in meters)": 0.75,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.47,
+            0.41
+          ],
+          "orientation": 2.07
+        },
+        {
+          "Name of the detected object": "chair",
+          "Distance of the object from you (in meters)": 1.56,
+          "Dimensions of the object (in meters)": [
+            0.74,
+            0.57,
+            0.59
+          ],
+          "orientation": 0.78
+        },
+        {
+          "Name of the detected object": "parking meter",
+          "Distance of the object from you (in meters)": 4.02,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.53,
+            0.47
+          ],
+          "orientation": 3.21
+        },
+        {
+          "Name of the detected object": "umbrella",
+          "Distance of the object from you (in meters)": 1.15,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.52,
+            0.47
+          ],
+          "orientation": 1.6
+        }
+      ],
+      "vlm": "I\u2019m in a room with a bed, a laptop, two red chairs, a desk, and various objects; I must avoid collisions to find a safe route.",
+      "sensors": {
+        "Left Clearance": 1460,
+        "Right Clearance": 1969,
+        "Front Clearance": 153,
+        "Back Clearance": 919,
+        "Up Clearance": 815,
+        "Bottom Clearance": 719,
+        "AccelX": -0.07,
+        "AccelY": 0.02,
+        "AccelZ": -0.08,
+        "GyroX": 0.17,
+        "GyroY": -0.01,
+        "GyroZ": -0.25
+      }
+    },
+    "output": {
+      "vx": -0.006930000000000001,
+      "vy": 0.5,
+      "vz": -0.00792,
+      "yaw": -0.3
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782532",
+      "yolo": [
+        {
+          "Name of the detected object": "tie",
+          "Distance of the object from you (in meters)": 4.87,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.54,
+            0.49
+          ],
+          "orientation": 1.46
+        },
+        {
+          "Name of the detected object": "scissors",
+          "Distance of the object from you (in meters)": 5.73,
+          "Dimensions of the object (in meters)": [
+            0.54,
+            0.49,
+            0.54
+          ],
+          "orientation": 3.16
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1398,
+        "Right Clearance": 801,
+        "Front Clearance": 991,
+        "Back Clearance": 298,
+        "Up Clearance": 822,
+        "Bottom Clearance": 1991,
+        "AccelX": 0.11,
+        "AccelY": -0.17,
+        "AccelZ": -0.16,
+        "GyroX": 0.07,
+        "GyroY": 0.04,
+        "GyroZ": -0.06
+      }
+    },
+    "output": {
+      "vx": 0.01089,
+      "vy": -0.5,
+      "vz": -0.01584,
+      "yaw": -0.009999999999999995
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782569",
+      "yolo": [
+        {
+          "Name of the detected object": "car",
+          "Distance of the object from you (in meters)": 8.78,
+          "Dimensions of the object (in meters)": [
+            1.49,
+            1.62,
+            3.82
+          ],
+          "orientation": 4.82
+        },
+        {
+          "Name of the detected object": "bowl",
+          "Distance of the object from you (in meters)": 9.88,
+          "Dimensions of the object (in meters)": [
+            0.48,
+            0.57,
+            0.6
+          ],
+          "orientation": 4.34
+        },
+        {
+          "Name of the detected object": "dining table",
+          "Distance of the object from you (in meters)": 1.01,
+          "Dimensions of the object (in meters)": [
+            0.74,
+            1.18,
+            1.19
+          ],
+          "orientation": 3.53
+        },
+        {
+          "Name of the detected object": "car",
+          "Distance of the object from you (in meters)": 4.19,
+          "Dimensions of the object (in meters)": [
+            1.5,
+            1.61,
+            3.9
+          ],
+          "orientation": 5.09
+        }
+      ],
+      "vlm": "I\u2019m inside a room containing a bed with a laptop, two chairs, a window with curtains, a door, and a dresser with objects; I must maneuver safely.",
+      "sensors": {
+        "Left Clearance": 334,
+        "Right Clearance": 1381,
+        "Front Clearance": 194,
+        "Back Clearance": 1086,
+        "Up Clearance": 1196,
+        "Bottom Clearance": 1945,
+        "AccelX": -0.04,
+        "AccelY": 0.03,
+        "AccelZ": 0.13,
+        "GyroX": -0.0,
+        "GyroY": 0.01,
+        "GyroZ": -0.09
+      }
+    },
+    "output": {
+      "vx": -0.00396,
+      "vy": 0.5,
+      "vz": 0.012870000000000001,
+      "yaw": -0.14
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782641",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 1679,
+        "Right Clearance": 396,
+        "Front Clearance": 183,
+        "Back Clearance": 1551,
+        "Up Clearance": 1300,
+        "Bottom Clearance": 1619,
+        "AccelX": -0.02,
+        "AccelY": 0.02,
+        "AccelZ": 0.04,
+        "GyroX": 0.07,
+        "GyroY": -0.12,
+        "GyroZ": -0.1
+      }
+    },
+    "output": {
+      "vx": -0.00198,
+      "vy": 0.5,
+      "vz": 0.00396,
+      "yaw": -0.05
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782667",
+      "yolo": [
+        {
+          "Name of the detected object": "zebra",
+          "Distance of the object from you (in meters)": 4.78,
+          "Dimensions of the object (in meters)": [
+            0.43,
+            0.44,
+            0.45
+          ],
+          "orientation": 5.99
+        },
+        {
+          "Name of the detected object": "sink",
+          "Distance of the object from you (in meters)": 6.76,
+          "Dimensions of the object (in meters)": [
+            0.51,
+            0.44,
+            0.55
+          ],
+          "orientation": 4.38
+        },
+        {
+          "Name of the detected object": "toilet",
+          "Distance of the object from you (in meters)": 2.47,
+          "Dimensions of the object (in meters)": [
+            0.57,
+            0.44,
+            0.53
+          ],
+          "orientation": 2.81
+        },
+        {
+          "Name of the detected object": "fork",
+          "Distance of the object from you (in meters)": 3.26,
+          "Dimensions of the object (in meters)": [
+            0.56,
+            0.43,
+            0.56
+          ],
+          "orientation": 5.89
+        },
+        {
+          "Name of the detected object": "toaster",
+          "Distance of the object from you (in meters)": 7.24,
+          "Dimensions of the object (in meters)": [
+            0.46,
+            0.49,
+            0.49
+          ],
+          "orientation": 3.91
+        }
+      ],
+      "vlm": "I am in a room with a bed, two red chairs, a window with blue curtains, a door, and a dresser with objects; I need to maneuver safely.",
+      "sensors": {
+        "Left Clearance": 324,
+        "Right Clearance": 1244,
+        "Front Clearance": 1082,
+        "Back Clearance": 1734,
+        "Up Clearance": 121,
+        "Bottom Clearance": 1536,
+        "AccelX": 0.04,
+        "AccelY": -0.07,
+        "AccelZ": -0.05,
+        "GyroX": -0.03,
+        "GyroY": -0.02,
+        "GyroZ": 0.11
+      }
+    },
+    "output": {
+      "vx": 0.00396,
+      "vy": -0.006930000000000001,
+      "vz": -0.3,
+      "yaw": 0.16
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782723",
+      "yolo": [
+        {
+          "Name of the detected object": "cow",
+          "Distance of the object from you (in meters)": 0.93,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.45,
+            0.48
+          ],
+          "orientation": 1.85
+        },
+        {
+          "Name of the detected object": "cow",
+          "Distance of the object from you (in meters)": 3.3,
+          "Dimensions of the object (in meters)": [
+            0.52,
+            0.51,
+            0.43
+          ],
+          "orientation": 0.44
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1265,
+        "Right Clearance": 1447,
+        "Front Clearance": 1868,
+        "Back Clearance": 949,
+        "Up Clearance": 91,
+        "Bottom Clearance": 1466,
+        "AccelX": 0.1,
+        "AccelY": -0.2,
+        "AccelZ": -0.06,
+        "GyroX": 0.14,
+        "GyroY": -0.11,
+        "GyroZ": -0.12
+      }
+    },
+    "output": {
+      "vx": 0.009900000000000003,
+      "vy": -0.5,
+      "vz": -0.3,
+      "yaw": -0.06999999999999999
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782761",
+      "yolo": [
+        {
+          "Name of the detected object": "banana",
+          "Distance of the object from you (in meters)": 6.53,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.46,
+            0.54
+          ],
+          "orientation": 2.53
+        }
+      ],
+      "vlm": "banana at 6.53m ahead",
+      "sensors": {
+        "Left Clearance": 1201,
+        "Right Clearance": 822,
+        "Front Clearance": 1400,
+        "Back Clearance": 637,
+        "Up Clearance": 1393,
+        "Bottom Clearance": 112,
+        "AccelX": -0.07,
+        "AccelY": 0.01,
+        "AccelZ": 0.04,
+        "GyroX": 0.05,
+        "GyroY": 0.0,
+        "GyroZ": -0.08
+      }
+    },
+    "output": {
+      "vx": -0.006930000000000001,
+      "vy": 0.00099,
+      "vz": 0.3,
+      "yaw": -0.03
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782797",
+      "yolo": [
+        {
+          "Name of the detected object": "teddy bear",
+          "Distance of the object from you (in meters)": 3.0,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.5,
+            0.42
+          ],
+          "orientation": 1.98
+        },
+        {
+          "Name of the detected object": "cake",
+          "Distance of the object from you (in meters)": 4.59,
+          "Dimensions of the object (in meters)": [
+            0.46,
+            0.44,
+            0.53
+          ],
+          "orientation": 2.07
+        },
+        {
+          "Name of the detected object": "truck",
+          "Distance of the object from you (in meters)": 2.96,
+          "Dimensions of the object (in meters)": [
+            3.09,
+            2.58,
+            11.16
+          ],
+          "orientation": 2.42
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 732,
+        "Right Clearance": 1382,
+        "Front Clearance": 1673,
+        "Back Clearance": 1328,
+        "Up Clearance": 1272,
+        "Bottom Clearance": 86,
+        "AccelX": 0.07,
+        "AccelY": -0.02,
+        "AccelZ": 0.23,
+        "GyroX": 0.13,
+        "GyroY": 0.11,
+        "GyroZ": 0.0
+      }
+    },
+    "output": {
+      "vx": 0.006930000000000001,
+      "vy": -0.00198,
+      "vz": 0.3,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782843",
+      "yolo": [
+        {
+          "Name of the detected object": "train",
+          "Distance of the object from you (in meters)": 4.74,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.55,
+            0.58
+          ],
+          "orientation": 3.53
+        },
+        {
+          "Name of the detected object": "elephant",
+          "Distance of the object from you (in meters)": 3.25,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.39,
+            0.55
+          ],
+          "orientation": 3.53
+        },
+        {
+          "Name of the detected object": "clock",
+          "Distance of the object from you (in meters)": 6.54,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.57,
+            0.48
+          ],
+          "orientation": 3.39
+        },
+        {
+          "Name of the detected object": "sandwich",
+          "Distance of the object from you (in meters)": 10.02,
+          "Dimensions of the object (in meters)": [
+            0.43,
+            0.48,
+            0.46
+          ],
+          "orientation": 2.15
+        }
+      ],
+      "vlm": "I\u2019m in a space with two red chairs, a wooden door in the middle, a backpack on the wall, two tables with objects, and a fridge by the window; I need to steer clear of obstacles.",
+      "sensors": {
+        "Left Clearance": 329,
+        "Right Clearance": 575,
+        "Front Clearance": 1646,
+        "Back Clearance": 1647,
+        "Up Clearance": 807,
+        "Bottom Clearance": 132,
+        "AccelX": 0.18,
+        "AccelY": -0.09,
+        "AccelZ": 0.09,
+        "GyroX": 0.04,
+        "GyroY": 0.1,
+        "GyroZ": 0.16
+      }
+    },
+    "output": {
+      "vx": 0.01782,
+      "vy": -0.00891,
+      "vz": 0.3,
+      "yaw": 0.21000000000000002
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782889",
+      "yolo": [
+        {
+          "Name of the detected object": "bear",
+          "Distance of the object from you (in meters)": 7.81,
+          "Dimensions of the object (in meters)": [
+            0.46,
+            0.56,
+            0.53
+          ],
+          "orientation": 4.92
+        },
+        {
+          "Name of the detected object": "skis",
+          "Distance of the object from you (in meters)": 5.3,
+          "Dimensions of the object (in meters)": [
+            0.43,
+            0.42,
+            0.44
+          ],
+          "orientation": 0.81
+        },
+        {
+          "Name of the detected object": "wine glass",
+          "Distance of the object from you (in meters)": 5.86,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.45,
+            0.61
+          ],
+          "orientation": 5.17
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 773,
+        "Right Clearance": 1392,
+        "Front Clearance": 494,
+        "Back Clearance": 1071,
+        "Up Clearance": 686,
+        "Bottom Clearance": 300,
+        "AccelX": 0.19,
+        "AccelY": -0.01,
+        "AccelZ": 0.08,
+        "GyroX": 0.1,
+        "GyroY": -0.04,
+        "GyroZ": -0.04
+      }
+    },
+    "output": {
+      "vx": 0.018810000000000004,
+      "vy": -0.00099,
+      "vz": 0.00792,
+      "yaw": -0.09
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782930",
+      "yolo": [
+        {
+          "Name of the detected object": "bus",
+          "Distance of the object from you (in meters)": 7.7,
+          "Dimensions of the object (in meters)": [
+            3.1,
+            2.6,
+            11.18
+          ],
+          "orientation": 1.36
+        },
+        {
+          "Name of the detected object": "apple",
+          "Distance of the object from you (in meters)": 3.4,
+          "Dimensions of the object (in meters)": [
+            0.64,
+            0.43,
+            0.57
+          ],
+          "orientation": 2.44
+        },
+        {
+          "Name of the detected object": "microwave",
+          "Distance of the object from you (in meters)": 8.47,
+          "Dimensions of the object (in meters)": [
+            0.46,
+            0.47,
+            0.52
+          ],
+          "orientation": 2.8
+        },
+        {
+          "Name of the detected object": "tennis racket",
+          "Distance of the object from you (in meters)": 9.17,
+          "Dimensions of the object (in meters)": [
+            0.43,
+            0.55,
+            0.5
+          ],
+          "orientation": 1.79
+        }
+      ],
+      "vlm": "I\u2019m in a room with a bed holding a laptop, two chairs, a window with patterned curtains, a door, and a dresser; I must fly safely around obstacles.",
+      "sensors": {
+        "Left Clearance": 1537,
+        "Right Clearance": 1337,
+        "Front Clearance": 902,
+        "Back Clearance": 552,
+        "Up Clearance": 66,
+        "Bottom Clearance": 485,
+        "AccelX": 0.03,
+        "AccelY": -0.02,
+        "AccelZ": -0.06,
+        "GyroX": 0.14,
+        "GyroY": -0.1,
+        "GyroZ": 0.25
+      }
+    },
+    "output": {
+      "vx": 0.00297,
+      "vy": -0.00198,
+      "vz": -0.3,
+      "yaw": 0.3
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.782983",
+      "yolo": [
+        {
+          "Name of the detected object": "sheep",
+          "Distance of the object from you (in meters)": 5.2,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.5,
+            0.55
+          ],
+          "orientation": 0.45
+        }
+      ],
+      "vlm": "sheep at 5.2m ahead",
+      "sensors": {
+        "Left Clearance": 831,
+        "Right Clearance": 317,
+        "Front Clearance": 1672,
+        "Back Clearance": 723,
+        "Up Clearance": 103,
+        "Bottom Clearance": 779,
+        "AccelX": 0.06,
+        "AccelY": 0.16,
+        "AccelZ": 0.09,
+        "GyroX": 0.06,
+        "GyroY": 0.02,
+        "GyroZ": -0.0
+      }
+    },
+    "output": {
+      "vx": 0.00594,
+      "vy": 0.01584,
+      "vz": -0.3,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.783016",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 1223,
+        "Right Clearance": 315,
+        "Front Clearance": 772,
+        "Back Clearance": 677,
+        "Up Clearance": 1049,
+        "Bottom Clearance": 185,
+        "AccelX": 0.04,
+        "AccelY": -0.09,
+        "AccelZ": 0.13,
+        "GyroX": 0.13,
+        "GyroY": -0.07,
+        "GyroZ": 0.09
+      }
+    },
+    "output": {
+      "vx": 0.00396,
+      "vy": -0.00891,
+      "vz": 0.3,
+      "yaw": 0.14
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.783047",
+      "yolo": [
+        {
+          "Name of the detected object": "teddy bear",
+          "Distance of the object from you (in meters)": 9.29,
+          "Dimensions of the object (in meters)": [
+            0.46,
+            0.52,
+            0.45
+          ],
+          "orientation": 0.18
+        },
+        {
+          "Name of the detected object": "bear",
+          "Distance of the object from you (in meters)": 5.75,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.52,
+            0.43
+          ],
+          "orientation": 0.5
+        },
+        {
+          "Name of the detected object": "hair drier",
+          "Distance of the object from you (in meters)": 9.24,
+          "Dimensions of the object (in meters)": [
+            0.5,
+            0.55,
+            0.52
+          ],
+          "orientation": 2.39
+        },
+        {
+          "Name of the detected object": "giraffe",
+          "Distance of the object from you (in meters)": 0.84,
+          "Dimensions of the object (in meters)": [
+            0.54,
+            0.58,
+            0.56
+          ],
+          "orientation": 2.75
+        }
+      ],
+      "vlm": "I\u2019m flying in a space with a bed, a laptop, two red chairs, a desk, and various objects; I must steer clear of obstacles to proceed.",
+      "sensors": {
+        "Left Clearance": 1897,
+        "Right Clearance": 785,
+        "Front Clearance": 1419,
+        "Back Clearance": 389,
+        "Up Clearance": 71,
+        "Bottom Clearance": 1053,
+        "AccelX": -0.03,
+        "AccelY": 0.01,
+        "AccelZ": -0.06,
+        "GyroX": -0.02,
+        "GyroY": 0.01,
+        "GyroZ": 0.01
+      }
+    },
+    "output": {
+      "vx": -0.00297,
+      "vy": -0.5,
+      "vz": -0.3,
+      "yaw": 0.060000000000000005
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.783097",
+      "yolo": [
+        {
+          "Name of the detected object": "motorcycle",
+          "Distance of the object from you (in meters)": 0.69,
+          "Dimensions of the object (in meters)": [
+            1.58,
+            0.94,
+            2.09
+          ],
+          "orientation": 2.29
+        },
+        {
+          "Name of the detected object": "parking meter",
+          "Distance of the object from you (in meters)": 4.32,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.51,
+            0.54
+          ],
+          "orientation": 2.47
+        },
+        {
+          "Name of the detected object": "sink",
+          "Distance of the object from you (in meters)": 7.32,
+          "Dimensions of the object (in meters)": [
+            0.43,
+            0.57,
+            0.41
+          ],
+          "orientation": 2.01
+        },
+        {
+          "Name of the detected object": "cat",
+          "Distance of the object from you (in meters)": 5.27,
+          "Dimensions of the object (in meters)": [
+            0.44,
+            0.34,
+            0.74
+          ],
+          "orientation": 0.69
+        },
+        {
+          "Name of the detected object": "cup",
+          "Distance of the object from you (in meters)": 3.88,
+          "Dimensions of the object (in meters)": [
+            0.1,
+            0.12,
+            0.12
+          ],
+          "orientation": 1.97
+        }
+      ],
+      "vlm": "I\u2019m navigating a room with a bed, a laptop, two red chairs, a desk, and various objects; I must carefully avoid obstacles to chart a safe path.",
+      "sensors": {
+        "Left Clearance": 1944,
+        "Right Clearance": 1965,
+        "Front Clearance": 541,
+        "Back Clearance": 1789,
+        "Up Clearance": 206,
+        "Bottom Clearance": 1162,
+        "AccelX": -0.06,
+        "AccelY": 0.1,
+        "AccelZ": 0.06,
+        "GyroX": 0.12,
+        "GyroY": 0.02,
+        "GyroZ": 0.25
+      }
+    },
+    "output": {
+      "vx": -0.00594,
+      "vy": 0.5,
+      "vz": -0.3,
+      "yaw": 0.2
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.783149",
+      "yolo": [
+        {
+          "Name of the detected object": "cup",
+          "Distance of the object from you (in meters)": 2.93,
+          "Dimensions of the object (in meters)": [
+            0.2,
+            0.12,
+            0.08
+          ],
+          "orientation": 0.99
+        },
+        {
+          "Name of the detected object": "cake",
+          "Distance of the object from you (in meters)": 3.56,
+          "Dimensions of the object (in meters)": [
+            0.54,
+            0.51,
+            0.53
+          ],
+          "orientation": 4.16
+        },
+        {
+          "Name of the detected object": "pizza",
+          "Distance of the object from you (in meters)": 8.56,
+          "Dimensions of the object (in meters)": [
+            0.49,
+            0.47,
+            0.59
+          ],
+          "orientation": 5.31
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1714,
+        "Right Clearance": 1671,
+        "Front Clearance": 2001,
+        "Back Clearance": 1225,
+        "Up Clearance": 1389,
+        "Bottom Clearance": 165,
+        "AccelX": -0.09,
+        "AccelY": 0.04,
+        "AccelZ": -0.05,
+        "GyroX": 0.19,
+        "GyroY": -0.08,
+        "GyroZ": -0.12
+      }
+    },
+    "output": {
+      "vx": -0.00891,
+      "vy": 0.00396,
+      "vz": 0.3,
+      "yaw": -0.06999999999999999
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.783196",
+      "yolo": [
+        {
+          "Name of the detected object": "dog",
+          "Distance of the object from you (in meters)": 5.94,
+          "Dimensions of the object (in meters)": [
+            0.78,
+            0.46,
+            1.13
+          ],
+          "orientation": 2.5
+        },
+        {
+          "Name of the detected object": "chair",
+          "Distance of the object from you (in meters)": 9.58,
+          "Dimensions of the object (in meters)": [
+            0.86,
+            0.53,
+            0.56
+          ],
+          "orientation": 4.83
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 752,
+        "Right Clearance": 1427,
+        "Front Clearance": 1313,
+        "Back Clearance": 814,
+        "Up Clearance": 1159,
+        "Bottom Clearance": 93,
+        "AccelX": -0.07,
+        "AccelY": -0.13,
+        "AccelZ": -0.03,
+        "GyroX": -0.09,
+        "GyroY": -0.04,
+        "GyroZ": 0.2
+      }
+    },
+    "output": {
+      "vx": -0.006930000000000001,
+      "vy": -0.012870000000000001,
+      "vz": 0.3,
+      "yaw": 0.15000000000000002
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.783233",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 682,
+        "Right Clearance": 1551,
+        "Front Clearance": 315,
+        "Back Clearance": 733,
+        "Up Clearance": 1460,
+        "Bottom Clearance": 280,
+        "AccelX": -0.12,
+        "AccelY": 0.18,
+        "AccelZ": 0.15,
+        "GyroX": -0.11,
+        "GyroY": 0.04,
+        "GyroZ": 0.15
+      }
+    },
+    "output": {
+      "vx": -0.01188,
+      "vy": 0.01782,
+      "vz": 0.3,
+      "yaw": 0.09999999999999999
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.783256",
+      "yolo": [
+        {
+          "Name of the detected object": "car",
+          "Distance of the object from you (in meters)": 9.43,
+          "Dimensions of the object (in meters)": [
+            1.56,
+            1.65,
+            3.91
+          ],
+          "orientation": 3.04
+        }
+      ],
+      "vlm": "car at 9.43m ahead",
+      "sensors": {
+        "Left Clearance": 1823,
+        "Right Clearance": 909,
+        "Front Clearance": 1177,
+        "Back Clearance": 419,
+        "Up Clearance": 175,
+        "Bottom Clearance": 888,
+        "AccelX": -0.05,
+        "AccelY": 0.05,
+        "AccelZ": -0.05,
+        "GyroX": 0.15,
+        "GyroY": 0.03,
+        "GyroZ": 0.08
+      }
+    },
+    "output": {
+      "vx": -0.004950000000000001,
+      "vy": 0.004950000000000001,
+      "vz": -0.3,
+      "yaw": 0.13
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.783288",
+      "yolo": [
+        {
+          "Name of the detected object": "tie",
+          "Distance of the object from you (in meters)": 4.81,
+          "Dimensions of the object (in meters)": [
+            0.47,
+            0.52,
+            0.57
+          ],
+          "orientation": 2.29
+        },
+        {
+          "Name of the detected object": "potted plant",
+          "Distance of the object from you (in meters)": 3.36,
+          "Dimensions of the object (in meters)": [
+            0.81,
+            0.34,
+            0.4
+          ],
+          "orientation": 5.71
+        },
+        {
+          "Name of the detected object": "clock",
+          "Distance of the object from you (in meters)": 8.69,
+          "Dimensions of the object (in meters)": [
+            0.39,
+            0.54,
+            0.46
+          ],
+          "orientation": 4.92
+        },
+        {
+          "Name of the detected object": "bed",
+          "Distance of the object from you (in meters)": 4.34,
+          "Dimensions of the object (in meters)": [
+            0.62,
+            1.46,
+            1.99
+          ],
+          "orientation": 2.53
+        },
+        {
+          "Name of the detected object": "skis",
+          "Distance of the object from you (in meters)": 4.63,
+          "Dimensions of the object (in meters)": [
+            0.56,
+            0.46,
+            0.44
+          ],
+          "orientation": 3.38
+        }
+      ],
+      "vlm": "I\u2019m flying through a space with a bed, a laptop, two red chairs, a desk, and various objects; I must find a clear path while avoiding collisions.",
+      "sensors": {
+        "Left Clearance": 1868,
+        "Right Clearance": 1776,
+        "Front Clearance": 715,
+        "Back Clearance": 1902,
+        "Up Clearance": 135,
+        "Bottom Clearance": 1572,
+        "AccelX": 0.09,
+        "AccelY": -0.19,
+        "AccelZ": -0.06,
+        "GyroX": -0.02,
+        "GyroY": -0.05,
+        "GyroZ": -0.07
+      }
+    },
+    "output": {
+      "vx": 0.00891,
+      "vy": -0.018810000000000004,
+      "vz": -0.3,
+      "yaw": -0.020000000000000004
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.783345",
+      "yolo": [
+        {
+          "Name of the detected object": "mouse",
+          "Distance of the object from you (in meters)": 3.76,
+          "Dimensions of the object (in meters)": [
+            0.03,
+            0.06,
+            0.05
+          ],
+          "orientation": 3.8
+        },
+        {
+          "Name of the detected object": "oven",
+          "Distance of the object from you (in meters)": 0.95,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.57,
+            0.49
+          ],
+          "orientation": 1.97
+        },
+        {
+          "Name of the detected object": "apple",
+          "Distance of the object from you (in meters)": 6.68,
+          "Dimensions of the object (in meters)": [
+            0.4,
+            0.52,
+            0.46
+          ],
+          "orientation": 4.3
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 1680,
+        "Right Clearance": 1511,
+        "Front Clearance": 751,
+        "Back Clearance": 741,
+        "Up Clearance": 158,
+        "Bottom Clearance": 1133,
+        "AccelX": -0.17,
+        "AccelY": 0.08,
+        "AccelZ": -0.04,
+        "GyroX": 0.1,
+        "GyroY": 0.03,
+        "GyroZ": 0.02
+      }
+    },
+    "output": {
+      "vx": -0.01683,
+      "vy": -0.5,
+      "vz": -0.3,
+      "yaw": 0.07
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.783388",
+      "yolo": [
+        {
+          "Name of the detected object": "cup",
+          "Distance of the object from you (in meters)": 4.46,
+          "Dimensions of the object (in meters)": [
+            0.06,
+            0.15,
+            0.03
+          ],
+          "orientation": 0.85
+        },
+        {
+          "Name of the detected object": "chair",
+          "Distance of the object from you (in meters)": 8.03,
+          "Dimensions of the object (in meters)": [
+            0.77,
+            0.5,
+            0.56
+          ],
+          "orientation": 3.53
+        }
+      ],
+      "vlm": "several objects in vicinity",
+      "sensors": {
+        "Left Clearance": 556,
+        "Right Clearance": 492,
+        "Front Clearance": 1031,
+        "Back Clearance": 1530,
+        "Up Clearance": 132,
+        "Bottom Clearance": 1498,
+        "AccelX": 0.14,
+        "AccelY": -0.05,
+        "AccelZ": 0.04,
+        "GyroX": -0.03,
+        "GyroY": 0.03,
+        "GyroZ": -0.21
+      }
+    },
+    "output": {
+      "vx": 0.013860000000000003,
+      "vy": -0.004950000000000001,
+      "vz": -0.3,
+      "yaw": -0.15999999999999998
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.783426",
+      "yolo": [
+        {
+          "Name of the detected object": "clock",
+          "Distance of the object from you (in meters)": 9.53,
+          "Dimensions of the object (in meters)": [
+            0.46,
+            0.53,
+            0.58
+          ],
+          "orientation": 3.16
+        },
+        {
+          "Name of the detected object": "handbag",
+          "Distance of the object from you (in meters)": 2.09,
+          "Dimensions of the object (in meters)": [
+            0.53,
+            0.45,
+            0.61
+          ],
+          "orientation": 6.21
+        },
+        {
+          "Name of the detected object": "surfboard",
+          "Distance of the object from you (in meters)": 9.66,
+          "Dimensions of the object (in meters)": [
+            0.45,
+            0.44,
+            0.61
+          ],
+          "orientation": 0.25
+        },
+        {
+          "Name of the detected object": "clock",
+          "Distance of the object from you (in meters)": 8.21,
+          "Dimensions of the object (in meters)": [
+            0.57,
+            0.43,
+            0.43
+          ],
+          "orientation": 4.54
+        },
+        {
+          "Name of the detected object": "skis",
+          "Distance of the object from you (in meters)": 1.1,
+          "Dimensions of the object (in meters)": [
+            0.51,
+            0.55,
+            0.54
+          ],
+          "orientation": 2.6
+        }
+      ],
+      "vlm": "I\u2019m an autonomous drone in a bedroom with a bed, a small table with flowers and books, a desk with a laptop, and a window with blue and white curtains; I need to avoid collisions.",
+      "sensors": {
+        "Left Clearance": 971,
+        "Right Clearance": 1686,
+        "Front Clearance": 1700,
+        "Back Clearance": 1648,
+        "Up Clearance": 384,
+        "Bottom Clearance": 217,
+        "AccelX": 0.05,
+        "AccelY": 0.12,
+        "AccelZ": 0.03,
+        "GyroX": -0.01,
+        "GyroY": 0.32,
+        "GyroZ": -0.04
+      }
+    },
+    "output": {
+      "vx": -0.5,
+      "vy": 0.01188,
+      "vz": 0.3,
+      "yaw": 0.0
+    }
+  },
+  {
+    "input": {
+      "timestamp": "2025-07-06T15:37:22.783482",
+      "yolo": [],
+      "vlm": "clear path",
+      "sensors": {
+        "Left Clearance": 1969,
+        "Right Clearance": 1690,
+        "Front Clearance": 597,
+        "Back Clearance": 1005,
+        "Up Clearance": 1819,
+        "Bottom Clearance": 106,
+        "AccelX": -0.08,
+        "AccelY": 0.2,
+        "AccelZ": 0.13,
+        "GyroX": -0.02,
+        "GyroY": 0.1,
+        "GyroZ": -0.01
+      }
+    },
+    "output": {
+      "vx": -0.00792,
+      "vy": 0.019800000000000005,
+      "vz": 0.3,
+      "yaw": 0.04
+    }
+  }
+]
