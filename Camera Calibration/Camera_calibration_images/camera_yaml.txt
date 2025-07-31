@@ -1,0 +1,40 @@
+# Camera parameters for monocular ORB-SLAM3
+
+# Camera calibration parameters
+Camera.fx: 1356.29847       # Focal length in x (in pixels)
+Camera.fy: 1437.35719       # Focal length in y (in pixels)
+Camera.cx: 360.59406        # Optical center x (in pixels)
+Camera.cy: 245.234035       # Optical center y (in pixels)
+
+# Distortion parameters
+Camera.k1: -4.09666705      # Radial distortion coefficient 1
+Camera.k2: 125.598924       # Radial distortion coefficient 2
+Camera.p1: -0.0714817989    # Tangential distortion coefficient 1
+Camera.p2: -0.108513618     # Tangential distortion coefficient 2
+Camera.k3: -1352.29210      # Radial distortion coefficient 3
+
+# Camera parameters
+Camera.width: 1920          # Full HD resolution width (1920 for 1080p)
+Camera.height: 1080         # Full HD resolution height (1080 for 1080p)
+
+# Camera framerate
+Camera.fps: 60.0            # Camera runs at 60 frames per second
+
+# Camera setup (monocular)
+Camera.bf: 0.0              # Baseline * Focal Length (monocular uses 0.0)
+Camera.T: !!opencv-matrix
+   rows: 3
+   cols: 1
+   data: [ 0.0, 0.0, 0.0 ] # Transformation matrix for monocular
+
+# Rotation and Translation vectors (extrinsics)
+# These describe the position and orientation of the camera with respect to the chessboard
+Camera.rvec: !!opencv-matrix
+   rows: 3
+   cols: 1
+   data: [ 0.34126363, -0.25432482, 0.71739317 ]  # Rotation vector (rvec)
+
+Camera.tvec: !!opencv-matrix
+   rows: 3
+   cols: 1
+   data: [ -3.2067783, -6.4588196, 44.5671829 ]    # Translation vector (tvec)

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic "CMakeFiles/llama-gguf.dir/gguf.o" -o llama-gguf  -lggml 

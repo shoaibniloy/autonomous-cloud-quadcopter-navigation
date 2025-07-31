@@ -1,0 +1,7 @@
+/home/shoaib/Drone/YOLO+LLM/build/CMakeFiles/llama-gguf.dir
+/home/shoaib/Drone/YOLO+LLM/build/CMakeFiles/edit_cache.dir
+/home/shoaib/Drone/YOLO+LLM/build/CMakeFiles/rebuild_cache.dir
+/home/shoaib/Drone/YOLO+LLM/build/CMakeFiles/list_install_components.dir
+/home/shoaib/Drone/YOLO+LLM/build/CMakeFiles/install.dir
+/home/shoaib/Drone/YOLO+LLM/build/CMakeFiles/install/local.dir
+/home/shoaib/Drone/YOLO+LLM/build/CMakeFiles/install/strip.dir

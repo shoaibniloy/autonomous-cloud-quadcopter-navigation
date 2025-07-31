@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/shoaib/Drone/YOLO+LLM/build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/llama-gguf.dir/gguf.o -c /home/shoaib/Drone/YOLO+LLM/llama.cpp/examples/gguf/gguf.cpp",
+  "file": "/home/shoaib/Drone/YOLO+LLM/llama.cpp/examples/gguf/gguf.cpp",
+  "output": "CMakeFiles/llama-gguf.dir/gguf.o"
+}
+]
