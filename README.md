@@ -1,1 +1,0 @@
-# autonomous-cloud-quadcopter-navigation
