@@ -1,4 +1,4 @@
-import serial
+import serial  # No longer needed, kept for reference
 import time
 import re
 import matplotlib.pyplot as plt
@@ -14,11 +14,12 @@ from scipy.spatial.transform import Rotation as R
 from math import atan2
 import random
 from collections import deque
+import socket  # Added for UDP communication
 
-# Serial port configuration
-SERIAL_PORT = "/dev/ttyUSB0"
-BAUD_RATE = 115200
-TIMEOUT = 0.02
+# UDP configuration (replacing serial port configuration)
+UDP_IP = "127.0.0.1"  # IP address of the host machine (localhost or specific IP)
+UDP_PORT = 5555  # Port for UDP communication
+UDP_TIMEOUT = 0.02  # Timeout for receiving UDP packets
 
 # Thresholds for invalid ToF readings
 INVALID_READINGS = {65535}  # Only filter extreme outliers
@@ -55,14 +56,16 @@ class KalmanFilter:
         self.P = (1 - K) * self.P
         return self.x
 
-def initialize_serial():
+def initialize_udp():
     while True:
         try:
-            ser = serial.Serial(port=SERIAL_PORT, baudrate=BAUD_RATE, timeout=TIMEOUT)
-            logging.info(f"Connected to {SERIAL_PORT} at {BAUD_RATE} baud.")
-            return ser
-        except serial.SerialException as e:
-            logging.error(f"Failed to connect to {SERIAL_PORT}: {e}")
+            sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            sock.bind((UDP_IP, UDP_PORT))
+            sock.settimeout(UDP_TIMEOUT)
+            logging.info(f"UDP server bound to {UDP_IP}:{UDP_PORT}")
+            return sock
+        except socket.error as e:
+            logging.error(f"Failed to bind UDP socket to {UDP_IP}:{UDP_PORT}: {e}")
             time.sleep(0.5)
 
 def setup_zmq_publisher(port="5550"):
@@ -93,7 +96,7 @@ pattern = re.compile(r"Left: (\d+) mm, Right: (\d+) mm, Front: (\d+) mm, Back: (
 def parse_sensor_data(line):
     global last_bottom_value, smoothing_buffers
     try:
-        logging.debug(f"Raw serial input: {line}")
+        logging.debug(f"Raw UDP input: {line}")
         match = pattern.match(line.strip())
         if match:
             accel_x = float(match.group(7))
@@ -157,7 +160,7 @@ def parse_sensor_data(line):
             logging.debug(f"Parsed data: {data}")
             return data
         else:
-            logging.warning(f"Failed to parse serial input: {line}")
+            logging.warning(f"Failed to parse UDP input: {line}")
         return None
     except Exception as e:
         logging.error(f"Error parsing sensor data: {e}")
@@ -173,7 +176,7 @@ def log_data(data, filename="sensor_data.csv"):
         ]]
         writer.writerow(row)
 
-def calibrate_sensors(ser, num_samples=1000):
+def calibrate_sensors(sock, num_samples=1000):
     accel_x_samples = []
     accel_y_samples = []
     accel_z_samples = []
@@ -183,17 +186,23 @@ def calibrate_sensors(ser, num_samples=1000):
     
     logging.info("Calibrating sensors...")
     for _ in range(num_samples):
-        if ser.in_waiting > 0:
-            line = ser.readline().decode('utf-8').strip()
+        try:
+            data, _ = sock.recvfrom(1024)  # Receive UDP packet
+            line = data.decode('utf-8').strip()
             if line:
-                data = parse_sensor_data(line)
-                if data:
-                    accel_x_samples.append(data["AccelX"])
-                    accel_y_samples.append(data["AccelY"])
-                    accel_z_samples.append(data["AccelZ"])
-                    gyro_x_samples.append(data["GyroX"])
-                    gyro_y_samples.append(data["GyroY"])
-                    gyro_z_samples.append(data["GyroZ"])
+                sensor_data = parse_sensor_data(line)
+                if sensor_data:
+                    accel_x_samples.append(sensor_data["AccelX"])
+                    accel_y_samples.append(sensor_data["AccelY"])
+                    accel_z_samples.append(sensor_data["AccelZ"])
+                    gyro_x_samples.append(sensor_data["GyroX"])
+                    gyro_y_samples.append(sensor_data["GyroY"])
+                    gyro_z_samples.append(sensor_data["GyroZ"])
+        except socket.timeout:
+            continue
+        except Exception as e:
+            logging.error(f"Error during calibration: {e}")
+            continue
 
     accel_x_mean = np.mean(accel_x_samples) if accel_x_samples else 0
     accel_y_mean = np.mean(accel_y_samples) if accel_y_samples else 0
@@ -372,14 +381,14 @@ def plot_data(data_history, tof_fig, tof_ax, accel_fig, accel_ax, gyro_fig, gyro
         logging.error(f"Error updating plots: {e}")
 
 def main():
-    ser = initialize_serial()
-    context, socket = setup_zmq_publisher()
+    sock = initialize_udp()  # Initialize UDP socket instead of serial
+    context, zmq_socket = setup_zmq_publisher()
     
     data_history = []
     quat = np.array([1, 0, 0, 0])
     kf = KalmanFilter(Q=0.001, R=0.003)
     
-    sensor_offset = calibrate_sensors(ser)
+    sensor_offset = calibrate_sensors(sock)
     start_time = datetime.now()
     
     tof_sums = {sensor: 0 for sensor in ["Left", "Right", "Front", "Back", "Up", "Bottom"]}
@@ -400,16 +409,23 @@ def main():
 
     while True:
         try:
-            line = ser.readline().decode('utf-8').strip()
-            if not line:
-                # Simulate data if no serial input
+            try:
+                data, addr = sock.recvfrom(1024)  # Receive UDP packet
+                line = data.decode('utf-8').strip()
+                logging.debug(f"Received UDP packet from {addr}: {line}")
+            except socket.timeout:
+                # Simulate data if no UDP packet received
                 line = f"Left: {random.randint(300, 1000)} mm, Right: {random.randint(300, 1000)} mm, " \
                        f"Front: {random.randint(300, 1000)} mm, Back: {random.randint(300, 1000)} mm, " \
                        f"Up: {random.randint(300, 1000)} mm, Bottom: {random.randint(950, 1050)} mm, " \
                        f"AccelX: {random.uniform(-0.5, 0.5)} m/s^2, AccelY: {random.uniform(-0.5, 0.5)} m/s^2, " \
                        f"AccelZ: {random.uniform(9.5, 10.1)} m/s^2, GyroX: {random.uniform(-0.1, 0.1)} rad/s, " \
                        f"GyroY: {random.uniform(-0.1, 0.1)} rad/s, GyroZ: {random.uniform(-0.1, 0.1)} rad/s"
-                logging.debug("Using simulated data due to empty serial input")
+                logging.debug("Using simulated data due to UDP timeout")
+
+            if not line:
+                logging.warning("Empty data received")
+                continue
 
             data = parse_sensor_data(line)
             if data:
@@ -432,7 +448,7 @@ def main():
                     "GyroZ": data["GyroZ"],
                     "elapsed_time": data["elapsed_time"]
                 }
-                send_zmq_message(socket, zmq_data)
+                send_zmq_message(zmq_socket, zmq_data)
                 
                 for sensor in ["Left", "Right", "Front", "Back", "Up", "Bottom"]:
                     if data[sensor] is not None:
@@ -446,7 +462,7 @@ def main():
                 plot_data(data_history, tof_fig, tof_ax, accel_fig, accel_ax, gyro_fig, gyro_ax, orient_fig, orient_ax, quat, kf, tof_sums, tof_counts)
             
             else:
-                logging.warning("No data parsed from serial input")
+                logging.warning("No data parsed from UDP input")
 
         except Exception as e:
             logging.error(f"Error in main loop: {e}")
