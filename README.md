@@ -1,7 +1,3 @@
-# Pipeline Setup and Usage Guide
-
-This README provides step-by-step instructions to set up and run the pipeline for integrating Depth Anything V2, SmolVLM, and LLM fine-tuning in a single environment. Follow these steps to ensure proper setup and execution.
-
 ## Prerequisites
 - This pipeline has been tested on **Ubuntu 20.04**. Ensure your system is compatible or make necessary adjustments for other operating systems.
 - All components and dependencies must be installed within a **single folder**, which will serve as your working environment for this pipeline.
