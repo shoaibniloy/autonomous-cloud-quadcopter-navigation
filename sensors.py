@@ -1,4 +1,4 @@
-import serial
+import socket
 import time
 import re
 import matplotlib.pyplot as plt
@@ -14,9 +14,9 @@ from scipy.spatial.transform import Rotation as R
 from math import atan2
 import random
 
-# Serial port configuration
-SERIAL_PORT = "/dev/ttyUSB0"
-BAUD_RATE = 115200
+# WiFi configuration for ESP-Now
+UDP_IP = "0.0.0.0"  # Listen on all interfaces
+UDP_PORT = 12345     # Port for receiving ESP-Now data
 TIMEOUT = 0.02
 
 # Thresholds for invalid ToF readings
@@ -48,14 +48,17 @@ class KalmanFilter:
         
         return self.x
 
-def initialize_serial():
+def initialize_wifi():
     while True:
         try:
-            ser = serial.Serial(port=SERIAL_PORT, baudrate=BAUD_RATE, timeout=TIMEOUT)
-            logging.info(f"Connected to {SERIAL_PORT} at {BAUD_RATE} baud.")
-            return ser
-        except serial.SerialException as e:
-            logging.error(f"Failed to connect to {SERIAL_PORT}: {e}")
+            sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+            sock.settimeout(TIMEOUT)
+            sock.bind((UDP_IP, UDP_PORT))
+            logging.info(f"UDP socket bound to {UDP_IP}:{UDP_PORT}")
+            return sock
+        except socket.error as e:
+            logging.error(f"Failed to bind UDP socket: {e}")
             time.sleep(0.5)
 
 def setup_zmq_publisher(port="5550"):
@@ -134,7 +137,7 @@ def log_data(data, filename="sensor_data.csv"):
         ]]
         writer.writerow(row)
 
-def calibrate_sensors(ser, num_samples=1000):
+def calibrate_sensors(sock, num_samples=1000):
     accel_x_samples = []
     accel_y_samples = []
     accel_z_samples = []
@@ -145,17 +148,23 @@ def calibrate_sensors(ser, num_samples=1000):
     logging.info("Calibrating sensors...")
 
     for _ in range(num_samples):
-        if ser.in_waiting > 0:
-            line = ser.readline().decode('utf-8').strip()
+        try:
+            data, _ = sock.recvfrom(1024)
+            line = data.decode('utf-8').strip()
             if line:
-                data = parse_sensor_data(line)
-                if data:
-                    accel_x_samples.append(data["AccelX"])
-                    accel_y_samples.append(data["AccelY"])
-                    accel_z_samples.append(data["AccelZ"])
-                    gyro_x_samples.append(data["GyroX"])
-                    gyro_y_samples.append(data["GyroY"])
-                    gyro_z_samples.append(data["GyroZ"])
+                sensor_data = parse_sensor_data(line)
+                if sensor_data:
+                    accel_x_samples.append(sensor_data["AccelX"])
+                    accel_y_samples.append(sensor_data["AccelY"])
+                    accel_z_samples.append(sensor_data["AccelZ"])
+                    gyro_x_samples.append(sensor_data["GyroX"])
+                    gyro_y_samples.append(sensor_data["GyroY"])
+                    gyro_z_samples.append(sensor_data["GyroZ"])
+        except socket.timeout:
+            continue
+        except Exception as e:
+            logging.error(f"Error during calibration: {e}")
+            continue
 
     accel_x_mean = np.mean(accel_x_samples)
     accel_y_mean = np.mean(accel_y_samples)
@@ -264,7 +273,7 @@ def plot_data(data_history, ax1, ax2, ax3, ax4, quat, kf, tof_sums, tof_counts):
         ax3.legend(fontsize=13)
         ax3.tick_params(axis='both', labelsize=13)
 
-    # 3D Orientation Plot (unchanged)
+    # 3D Orientation Plot
     if quat is not None and len(quat) == 4:
         rot = R.from_quat(quat)
         x_axis = np.array([1, 0, 0])
@@ -296,14 +305,14 @@ def plot_data(data_history, ax1, ax2, ax3, ax4, quat, kf, tof_sums, tof_counts):
     plt.pause(0.1)
 
 def main():
-    ser = initialize_serial()
-    context, socket = setup_zmq_publisher()
+    sock = initialize_wifi()
+    context, zmq_socket = setup_zmq_publisher()
     
     data_history = []
     quat = np.array([1, 0, 0, 0])
     kf = KalmanFilter(Q=0.001, R=0.003)
     
-    sensor_offset = calibrate_sensors(ser)
+    sensor_offset = calibrate_sensors(sock)
     start_time = datetime.now()
     
     tof_sums = {sensor: 0 for sensor in ["Left", "Right", "Front", "Back", "Up", "Bottom"]}
@@ -318,44 +327,47 @@ def main():
 
     while True:
         try:
-            line = ser.readline().decode('utf-8').strip()
+            data, _ = sock.recvfrom(1024)
+            line = data.decode('utf-8').strip()
             if line:
-                data = parse_sensor_data(line)
-                if data:
-                    data['elapsed_time'] = (datetime.now() - start_time).total_seconds()
-                    data_history.append(data)
-                    log_data(data)
+                sensor_data = parse_sensor_data(line)
+                if sensor_data:
+                    sensor_data['elapsed_time'] = (datetime.now() - start_time).total_seconds()
+                    data_history.append(sensor_data)
+                    log_data(sensor_data)
                     
                     # Create a new dictionary with renamed TOF sensor keys for ZMQ
                     zmq_data = {
-                        "Left Clearance": data["Left"],
-                        "Right Clearance": data["Right"],
-                        "Front Clearance": data["Front"],
-                        "Back Clearance": data["Back"],
-                        "Up Clearance": data["Up"],
-                        "Bottom Clearance": data["Bottom"],     
-                        "AccelX": data["AccelX"],
-                        "AccelY": data["AccelY"],
-                        "AccelZ": data["AccelZ"],
-                        "GyroX": data["GyroX"],
-                        "GyroY": data["GyroY"],
-                        "GyroZ": data["GyroZ"],
-                        "elapsed_time": data["elapsed_time"]
+                        "Left Clearance": sensor_data["Left"],
+                        "Right Clearance": sensor_data["Right"],
+                        "Front Clearance": sensor_data["Front"],
+                        "Back Clearance": sensor_data["Back"],
+                        "Up Clearance": sensor_data["Up"],
+                        "Bottom Clearance": sensor_data["Bottom"],     
+                        "AccelX": sensor_data["AccelX"],
+                        "AccelY": sensor_data["AccelY"],
+                        "AccelZ": sensor_data["AccelZ"],
+                        "GyroX": sensor_data["GyroX"],
+                        "GyroY": sensor_data["GyroY"],
+                        "GyroZ": sensor_data["GyroZ"],
+                        "elapsed_time": sensor_data["elapsed_time"]
                     }
-                    send_zmq_message(socket, zmq_data)
+                    send_zmq_message(zmq_socket, zmq_data)
                     
                     for sensor in ["Left", "Right", "Front", "Back", "Up", "Bottom"]:
-                        if data[sensor] is not None:
-                            tof_sums[sensor] += data[sensor]
+                        if sensor_data[sensor] is not None:
+                            tof_sums[sensor] += sensor_data[sensor]
                             tof_counts[sensor] += 1
                     
-                    accel_data = [data["AccelX"], data["AccelY"], data["AccelZ"]]
-                    gyro_data = [data["GyroX"], data["GyroY"], data["GyroZ"]]
+                    accel_data = [sensor_data["AccelX"], sensor_data["AccelY"], sensor_data["AccelZ"]]
+                    gyro_data = [sensor_data["GyroX"], sensor_data["GyroY"], sensor_data["GyroZ"]]
                     quat = update_orientation(quat, accel_data, gyro_data, dt=0.1)
 
                     plot_data(data_history, ax1, ax2, ax3, ax4, quat, kf, tof_sums, tof_counts)
                     plt.pause(0.01)
 
+        except socket.timeout:
+            continue
         except Exception as e:
             logging.error(f"Error in main loop: {e}")
             time.sleep(1)
